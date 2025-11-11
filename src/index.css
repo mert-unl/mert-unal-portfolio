@@ -4,6 +4,9 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+
+
 }
 
 
@@ -12,3 +15,20 @@
 
 }
 
+@keyframes blink {
+  0%, 100% {
+    color: white;
+    text-shadow: none;
+  }
+  60% {
+    color: #d4ffcc;
+    text-shadow:
+      0 0 20px #39FF14,
+      0 0 30px #39FF14,
+      0 0 40px #39FF14;
+  }
+}
+
+.animate-blink {
+  animation: blink 25s infinite;
+}

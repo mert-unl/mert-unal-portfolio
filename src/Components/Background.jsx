@@ -17,7 +17,7 @@ function Background() {
     window.addEventListener("resize", resize);
 
     const binary = "01";
-    const fontSize = 18;
+    const fontSize = 20;
     const columns = Math.floor(canvas.width / fontSize);
     const drops = Array(columns).fill(0);
 
@@ -59,7 +59,7 @@ for (let i = 0; i < drops.length; i++) {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed top-0 left-0 -z-10 w-full h-full bg-black"
+      className="fixed -z-100 w-full h-full bg-black"
     />
   );
 }
