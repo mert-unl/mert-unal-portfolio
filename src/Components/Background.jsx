@@ -22,10 +22,9 @@ function Background() {
     const drops = Array(columns).fill(0);
 
     const draw = () => {
-      ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+      ctx.fillStyle = "rgba(0, 0, 0, 0.042)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = "#04b430ac";
       ctx.font = `${fontSize}px monospace`;
       
 for (let i = 0; i < drops.length; i++) {
@@ -34,16 +33,14 @@ for (let i = 0; i < drops.length; i++) {
   const x = i * fontSize;
   const y = drops[i] * fontSize;
 
-  ctx.fillStyle = "#44f82463";
+  ctx.fillStyle = "#10f8109d";
   ctx.shadowColor = "#20c70342";
   ctx.shadowBlur = 12;
   ctx.fillText(text, x, y);
-
-  ctx.fillStyle = "#04b4303b"; 
   ctx.shadowBlur = 0;
 
   if (drops[i] * fontSize > canvas.height && Math.random() > 0.92) {
-    drops[i] = Math.random() * -20;
+    drops[i] = Math.random() * -30;
   }
 
   drops[i] += 0.8;

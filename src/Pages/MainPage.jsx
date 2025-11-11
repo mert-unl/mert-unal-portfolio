@@ -1,9 +1,10 @@
 import React from 'react'
 import Profile from './Profile'
+import Projects from './Projects'
 
 function MainPage() {
   return (
-    <div className='fixed top-20 w-full px-3 md:top-50 md:px-40 text-white left-0'>
+    <div className='mt-10  py-10  md:py-40  w-full px-3 md:top-50 md:px-100  text-white left-0'>
 
         {
        //about me
@@ -13,10 +14,8 @@ function MainPage() {
        //Link touch me, 
 
         }
-
      <Profile/>
-
-
+     <Projects/>
     </div>
   )
 }

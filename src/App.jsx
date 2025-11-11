@@ -1,4 +1,5 @@
 import Background from "./Components/Background";
+import BackgroundMusic from "./Components/BackgroundMusic";
 import MyCursor from "./Components/MyCursor";
 import Navigation from "./Components/Navigation";
 import WelcomeToast from "./Components/WelcomeToast";
@@ -9,8 +10,10 @@ export default function App() {
 
   return (
    <div>
-    <MyCursor/>
 
+     <WelcomeToast/>
+    <MyCursor/>
+    <BackgroundMusic/>
     <Navigation/>
     <MainPage/>
 
