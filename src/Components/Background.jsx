@@ -1,0 +1,68 @@
+import React from 'react'
+import { useEffect, useRef } from "react";
+
+function Background() {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext("2d");
+
+    const resize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    resize();
+    window.addEventListener("resize", resize);
+
+    const binary = "01";
+    const fontSize = 18;
+    const columns = Math.floor(canvas.width / fontSize);
+    const drops = Array(columns).fill(0);
+
+    const draw = () => {
+      ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = "#04b430ac";
+      ctx.font = `${fontSize}px monospace`;
+      
+for (let i = 0; i < drops.length; i++) {
+  const text = binary[Math.floor(Math.random() * binary.length)];
+
+  const x = i * fontSize;
+  const y = drops[i] * fontSize;
+
+  ctx.fillStyle = "#44f82463";
+  ctx.shadowColor = "#20c70342";
+  ctx.shadowBlur = 12;
+  ctx.fillText(text, x, y);
+
+  ctx.fillStyle = "#04b4303b"; 
+  ctx.shadowBlur = 0;
+
+  if (drops[i] * fontSize > canvas.height && Math.random() > 0.92) {
+    drops[i] = Math.random() * -20;
+  }
+
+  drops[i] += 0.8;
+}}
+    const interval = setInterval(draw,100);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener("resize", resize);
+    };
+  }, []);
+
+  return (
+    <canvas
+      ref={canvasRef}
+      className="fixed top-0 left-0 -z-10 w-full h-full bg-black"
+    />
+  );
+}
+
+
+export default Background
