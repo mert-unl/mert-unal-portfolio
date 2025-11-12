@@ -5,7 +5,7 @@ import Skills from './Skills'
 
 function MainPage() {
   return (
-    <div className='mt-10  py-10  md:py-40  w-full px-3 md:top-50 md:px-100  text-white left-0'>
+    <div className='mt-10  py-10  md:py-40  w-full px-3 md:top-50 md:px-80  text-white left-0'>
 
         {
        //about me

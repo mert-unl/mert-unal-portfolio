@@ -32,3 +32,40 @@
 .animate-blink {
   animation: blink 25s infinite;
 }
+
+
+
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-track,
+.reverse-track {
+  display: flex;
+  width: max-content;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.scroll-track {
+  animation: scrollRight 50s linear infinite;
+}
+
+.reverse-track {
+  animation: scrollLeft 50s linear infinite;
+}

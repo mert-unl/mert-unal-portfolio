@@ -22,7 +22,7 @@ function acceptClick(){
  
 
   return (
-    <div className={`${flag ?"display:none hidden " :"fixed inset-0 flex items-center justify-center z-[1000] bg-black/97"}`}>
+    <div className={`${flag ?"display:none hidden " :"fixed inset-0 flex items-center justify-center z-[1000] bg-black"}`}>
       <div className="bg-black text-white rounded-xl shadow-xl border-1 border-gray-400 p-12 flex flex-col items-center gap-6 max-w-sm w-full">
         <p className="text-md font-medium text-center">Merhaba!<br></br>
          {city ? ` Hmm demek ${city}, orada havalar nasıl? Umarım iyidir.` : "Konum alınıyor..."}
