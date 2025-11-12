@@ -41,7 +41,7 @@ export default function Cursor() {
 
       setTimeout(() => {
         trail.style.opacity = "0";
-        trail.style.transform = "translate(-50%, -50%) scale(0.4)";
+        trail.style.transform = "translate(-55%, -50%) scale(0.4)";
       }, 100);
 
       setTimeout(() => {
@@ -63,7 +63,7 @@ export default function Cursor() {
   return (
     <div
       ref={cursorRef}
-      className="fixed w-3 h-3 rounded-full bg-[#39FF14] pointer-events-none -translate-x-1/2 -translate-y-1/2 z-1000"
-    />
+      className="fixed w-5 h-5 text-2xl font-bold text-center  text-[#06d822]   pointer-events-none -translate-x-1/2 -translate-y-2/3 z-1000"
+    >0</div>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Profile from './Profile'
 import Projects from './Projects'
+import Skills from './Skills'
 
 function MainPage() {
   return (
@@ -16,6 +17,7 @@ function MainPage() {
         }
      <Profile/>
      <Projects/>
+     <Skills/>
     </div>
   )
 }

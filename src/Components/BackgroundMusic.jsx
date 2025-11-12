@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export default function BackgroundMusic() {
   const audioRef = useRef(null);
-  const [volume, setVolume] = useState(0.1);
+  const [volume, setVolume] = useState(0.2);
 
   useEffect(() => {
     const audio = new Audio("/clubbedToDeath.mp3"); 
@@ -28,12 +28,12 @@ export default function BackgroundMusic() {
   }, [volume]);
 
   return (
-    <div className="fixed top-10 left-10 z-100 flex items-center gap-2 p-2  rounded-md">
+    <div className="fixed top-10 left-10 z-100 flex  items-center gap-2 p-2  rounded-md">
       <label className="text-white text-sm">Ses:</label>
       <input
         type="range"
         min={0}
-        max={0.3}
+        max={0.40}
         step={0.01}
         value={volume}
         onChange={(e) => setVolume(parseFloat(e.target.value))}
