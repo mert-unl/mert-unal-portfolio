@@ -1,5 +1,6 @@
 import Background from "./Components/Background";
 import BackgroundMusic from "./Components/BackgroundMusic";
+import Footer from "./Components/Footer";
 import MyCursor from "./Components/MyCursor";
 import Navigation from "./Components/Navigation";
 import WelcomeToast from "./Components/WelcomeToast";
@@ -16,8 +17,7 @@ export default function App() {
     <BackgroundMusic/>
     <Navigation/>
     <MainPage/>
-
-
+    <Footer/>
 </div>
   )}
 

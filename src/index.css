@@ -1,14 +1,14 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-main: "JetBrains Mono", monospace;
+  --font-second: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: var(--font-main);
   line-height: 1.5;
   font-weight: 400;
-
-
-
 }
-
 
 .light{
 
@@ -21,11 +21,14 @@
     text-shadow: none;
   }
   60% {
-    color: #d4ffcc;
+    color: #2de40d;
     text-shadow:
-      0 0 20px #39FF14,
-      0 0 30px #39FF14,
-      0 0 40px #39FF14;
+      0 0 5px #00ff66,
+      0 0 10px #00ff66,
+      0 0 20px #00ff66,
+      0 0 40px #00ff66,
+      0 0 80px #00ff66,
+      0 0 120px #00ff66,
   }
 }
 

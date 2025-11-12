@@ -29,12 +29,15 @@ function Skills() {
   ]
 
   return (
-    <div className="overflow-hidden flex flex-col gap-4  md:gap-6 w-full  py-20">
+    <div className="overflow-hidden flex flex-col gap-4  md:gap-0 w-full   mt-20 md:mt-40">
 
-          <h2 className="text-5xl md:text-7xl font-medium md:py-6 animate-blink text-center underline">
+          <h2 className="text-4xl md:text-6xl font-medium md:py-6 animate-blink text-center">
         Yeteneklerim
       </h2>
-      <div className="scroll-track mt-10 md:mt-5 flex gap-2">
+      <div className='flex flex-col bg-gray-900/10 py-4 backdrop-blur-xs gap-6 '>
+
+     
+      <div className="scroll-track  md:mt-5 flex gap-2">
         {[...skills, ...skills].map((item, index) => (
           <SkillElement key={index} logo={item.logo} name={item.name} />
         ))}
@@ -45,18 +48,17 @@ function Skills() {
           <SkillElement key={index} logo={item.logo} name={item.name} />
         ))}
       </div>
+       </div>
     </div>
   )
 }
 
 
 function SkillElement({logo,name}){
- 
     return(<div className='flex flex-col text-center m-2  items-center'>
-         <img src={logo} className='h-30 w-30 md:h-50 md:w-50 rounded-lg border-2 border-green-700 shadow-2xl shadow-green-800' />
-         <p className='py-2 text-lg font-medium'>{name}</p> 
+         <img src={logo} className='h-30 w-30 md:h-55 md:w-55 rounded-lg border-2 border-green-500/60 shadow-2xl shadow-green-700' />
+         <p className='py-2 text-lg font-bold'>{name}</p> 
     </div>)
-
 }
 
 

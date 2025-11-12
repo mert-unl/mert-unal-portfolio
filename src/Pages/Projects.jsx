@@ -18,8 +18,8 @@ function Projects() {
   const visibleProjects = seeMore ? projects : projects.slice(0, 3)
 
   return (
-    <div className="flex flex-col items-center gap-10">
-      <h2 className="text-5xl md:text-7xl font-medium md:py-6 text-center underline">
+    <div className="flex flex-col items-center gap-8  md:gap-10">
+      <h2 className="text-4xl md:text-6xl font-medium  animate-blink md:py-5 text-center ">
         Projelerim
       </h2>
 
@@ -30,8 +30,8 @@ function Projects() {
       {projects.length > 3 && (
         <button
           onClick={() => setSeeMore(!seeMore)}
-          className="border-2 bg-black rounded-md hover:shadow-lg shadow-green-700 
-          hover:scale-110 transition-all border-green-500  duration-400  text-2xl px-4 py-2"
+          className="border-2 bg-black rounded-md hover:shadow-lg  shadow-green-700 
+          hover:scale-110 transition-all border-green-500  duration-400  text-md  md:text-2xl mt-5  px-4 py-2"
         >
           {seeMore ? "Daha az göster" : "Daha fazla proje göster ..."}
         </button>

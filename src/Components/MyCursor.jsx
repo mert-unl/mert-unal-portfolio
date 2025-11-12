@@ -30,7 +30,7 @@ export default function Cursor() {
 
       const trail = document.createElement("div");
       trail.className =
-        "fixed w-2.5 h-2.5 rounded-full bg-[#22c904f2] pointer-events-none -translate-x-1/2 -translate-y-1/2 z-48";
+        "fixed w-2.5 h-2.5 rounded-full bg-green-400 pointer-events-none -translate-x-1/2 -translate-y-1/2 z-48";
       trail.style.left = `${x}px`;
       trail.style.top = `${y}px`;
       trail.style.opacity = "0.5";
@@ -63,7 +63,7 @@ export default function Cursor() {
   return (
     <div
       ref={cursorRef}
-      className="fixed w-5 h-5 text-2xl font-bold text-center  text-[#06d822]   pointer-events-none -translate-x-1/2 -translate-y-2/3 z-1000"
+      className="fixed w-5 h-5 text-3xl font-medium text-center  text-green-400   pointer-events-none -translate-x-1/2 -translate-y-2/3 z-1000"
     >0</div>
   );
 }

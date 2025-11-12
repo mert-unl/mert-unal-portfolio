@@ -5,36 +5,30 @@ function Project({title,content,tags=[],webLink,github}) {
 
 
  //  
-    const linkClass ="  md:text-xl hover:scale-115 duration-500 transition-transform transition-colors   text-lg border-1 w-full py-2 md:py-4 border-green-600 bg-black/60  rounded-lg shadow-green-400 shadow-md  hover:shadow-lg  text-white  "
+    const linkClass =" animate-blink  md:text-xl hover:scale-110 duration-500 transition-transform transition-colors text-md  md:text-lg  border-1 w-full py-2 md:py-4 border-green-600 bg-black/60  rounded-lg shadow-green-600 shadow-md  hover:shadow-lg  text-white  "
 
   return (
-    <div className='flex flex-col  shadow-green-700  border-gray-600 md:border-1 md:shadow-green-800 md:shadow-2xl  hover:scale-110 duration-800 shadow-xl p-4 md:p-6 bg-black/80 rounded-2xl'>
+    <div className='flex flex-col  shadow-green-700  border-green-500/30 md:border-1 md:shadow-green-800 md:shadow-2xl  hover:scale-110 duration-800 shadow-xl p-4 md:p-6 bg-black/40 backdrop-blur-sm rounded-2xl'>
       <div className='md:flex  gap-10'>
       <img src="https://picsum.photos/id/1032/3200/3200" alt="proje1" className='w-full rounded-md md:max-w-1/2  object-cover h-70 md:h-100'/>
-     <div className='flex  md:px-2 md:max-w-220 flex-col gap-2'>
-      <h2 className='text-2xl md:text-5xl py-4 text-center font-bold'>{title}</h2>
-      
-        <p className='md:text-xl'>{content}
-        </p>
+
+        <div className='flex  md:px-2 md:max-w-220 flex-col gap-2'>
+          <h2 className='text-2xl md:text-5xl py-4 text-center font-bold'>{title}</h2>
+          
+            <p className='md:text-xl'>{content}
+            </p>
 
 
-        <h3 className='text-2xl font-medium mt-2 py-2'>Teknolojiler</h3>
-            <div className='flex flex-wrap gap-3'>
-                        {tags.map((tag,index)=><Tag key={index} item={tag}/>)
+            <h3 className='text-2xl font-medium mt-2 py-2'>Teknolojiler</h3>
+                <div className='flex flex-wrap gap-3'>
+                  {tags.map((tag,index)=><Tag key={index} item={tag}/>)}
+                </div>
 
-                        }
+            <div className='flex text-center py-4 mt-2  gap-10   font-medium '>
+                    <a className={linkClass} href={webLink}>Siteyi incele</a>
+                    <a className={linkClass}  href={github} >Github</a> 
             </div>
-
-
-        <div className='flex text-center py-4 mt-2  gap-10  animate-blink  font-medium '>
-                <a className={linkClass} href={webLink}>Siteyi incele</a>
-                <a className={linkClass}  href={github} >Github</a> 
         </div>
-
-       </div>
-
-     
-      
       </div>
 
 
@@ -42,13 +36,14 @@ function Project({title,content,tags=[],webLink,github}) {
 
     </div>
   )
-   function Tag({item}){
-
+   
+  function Tag({item}){
         return(
         <div className='border-1 w-fit px-4 bg-black/40 rounded-lg p-2'> 
            <p>{item}</p>
         </div>)
     }
+
 }
 
 

@@ -39,7 +39,7 @@ for (let i = 0; i < drops.length; i++) {
   ctx.fillText(text, x, y);
   ctx.shadowBlur = 0;
 
-  if (drops[i] * fontSize > canvas.height && Math.random() > 0.92) {
+  if (drops[i] * fontSize > canvas.height && Math.random() > 0.95) {
     drops[i] = Math.random() * -30;
   }
 
