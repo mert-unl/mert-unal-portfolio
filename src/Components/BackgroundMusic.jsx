@@ -28,7 +28,7 @@ export default function BackgroundMusic() {
   }, [volume]);
 
   return (
-    <div className="fixed top-10 left-10 z-100 flex  items-center gap-2 p-2  rounded-md">
+    <div className="hidden md:flex fixed top-10 right-10 z-11  items-center gap-2 p-2  rounded-md">
       <label className="text-white text-sm">Ses:</label>
       <input
         type="range"

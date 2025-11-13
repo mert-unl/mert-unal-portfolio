@@ -15,10 +15,10 @@ export function ContactHero({logo,name,link}) {
 export function ContactFooter({logo,name,link}){
 
 return(
-        <div>
-           <a href={link} target='_blank' className='flex flex-col items-center p-2 gap-2'>
-   <img src={logo} className='size-10 rounded-lg border-1 bg-white border-green-800 shadow-md' />
-          <p>{name}</p>
+        <div >
+           <a href={link} target='_blank' className='flex flex-col  hover:text-green-400 items-center p-2 gap-2'>
+   <img src={logo} className='size-10 rounded-lg border-1 bg-white  hover:bg-green-400 border-green-800 shadow-md' />
+          <p >{name}</p>
 
            </a>
        

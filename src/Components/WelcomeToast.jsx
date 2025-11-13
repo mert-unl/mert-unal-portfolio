@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import BackgroundMusic from './BackgroundMusic';
 
 function WelcomeToast() {
 
