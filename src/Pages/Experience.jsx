@@ -21,11 +21,9 @@ function Experience() {
   )
 }
 
-
-
-function ExperienceElement({key,company,position,year,context}){
+function ExperienceElement({company,position,year,context}){
     return (
-        <div id={key} className='flex flex-col border border-lime-800 backdrop-blur-sm bg-black/10 hover:scale-108 duration-1000 transition-all hover:shadow-green-300 hover:shadow-xl shadow-green-800 shadow-lg rounded-xl p-4'>
+        <div  className='flex flex-col border border-lime-800 backdrop-blur-sm bg-black/10 hover:scale-108 duration-1000 transition-all hover:shadow-green-300 hover:shadow-xl shadow-green-800 shadow-lg rounded-xl p-4'>
             <p className='text-3xl font-bold'>{company}</p>
             
             <div className='flex flex-row  py-1 justify-between'>

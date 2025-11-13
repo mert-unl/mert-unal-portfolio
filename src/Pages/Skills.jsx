@@ -29,9 +29,9 @@ function Skills() {
 }
 
 
-function SkillElement({key,logo,name}){
+function SkillElement({logo,name}){
     return(
-      <div id={key} className='flex flex-col text-center m-2  items-center'>
+      <div  className='flex flex-col text-center m-2  items-center'>
           <img src={logo} className='h-30 w-30 md:h-55 md:w-55 rounded-lg border-2 border-green-500/60 shadow-2xl shadow-green-700' />
           <p className='py-2 text-lg font-bold'>{name}</p> 
       </div>

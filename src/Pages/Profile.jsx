@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { ContactHero } from '../Components/Contact';
+import { AppContext } from '../context/AppContextProvider';
 
 function Profile() {
+
+
+   const {langData} = useContext(AppContext)
+  const about = langData.aboutSection
+
   return (
     <div className="flex flex-col gap-10 md:gap-20 ">
 
@@ -23,30 +29,15 @@ function Profile() {
           className="text-4xl md:text-7xl font-bold text-green-100 drop-shadow-green-400
           tracking-tight"
         >
-          Hakkımda
+         {about.title}
         </h2>
+            {about.texts.map((item,index)=>(
+               <p key={index}>{item}</p>
+            ))}
+   
+        
 
-        <p>Merhaba, ben Mert. Frontend, backend ve mobil geliştirme ile ilgileniyorum. 
-        İnşaat mühendisi olarak bir süre çalıştıktan sonra vizyonuma uygun olmadığını fark ederek 
-        yazılım odaklı ilerlemeye karar verdim. Girişim fikrimi hayata geçirmek için mobil geliştirmeye başladım.</p>
-
-        <p>Kotlin ile uygulamalar geliştirdim. Girişim sürecim beklediğim gibi ilerlemese de 3 farklı mobil uygulama 
-        geliştirerek pratiğimi güçlendirdim.</p>
-
-        <p>Tek başıma öğrenmenin sınırlarını görünce bir Full-Stack bootcamp programına katıldım. 
-        Önceki teknik temelim sayesinde öğrenme hızımı kısa sürede ciddi ölçüde artırdım.</p>
-
-        <p>Eğitim sürecinde aktif ve çalışkan olduğum için eğitmenim, beni part-time asistan hoca olarak ekibe dahil etti. Böylece yeni başlayan yazılımcılara 
-        bilgi ve deneyim aktarmaya başladım ve halen devam ediyorum.</p>
-
-        <p>Bootcamp sonrasında Insider tarafından 300 kişi içinden seçilen 50 geliştiriciden biri oldum, 
-        ardından 10 kişilik staj grubuna kabul edilme başarısı gösterdim.</p>
-
-        <p>1 aylık staj sürecinin ardından üretmeye ve gelişmeye devam ediyorum. Insider staj ve bootcamp sürecinde 10'un üzerinde proje gerçekleştirdim.
-          Birini alt tarafta ki projelerimden, diğerlerini de GitHub hesabımdan inceleyebilirsiniz.</p>
-        <p>Bu site eski portfolyo sitemi yenilemek amacıyla blog sitemi yaptıktan sonra, teknik yetkinliğimi ve üretim yaklaşımımı yansıtmak için geliştirdiğim projelerden biri.</p>
-
-        <p className="font-semibold text-green-200 mt-6 md:text-xl drop-shadow-md">Sanatla ve inovasyonla kalın.</p>
+        <p className="font-semibold text-green-200 mt-6 md:text-xl drop-shadow-md">{about.lastWord}</p>
     
           <div className='flex flex-row justify-between gap-5 md:gap-24 md:mt-12'>
            <ContactHero logo=" /assets/linkedIn.png" name="LinkedIn" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />

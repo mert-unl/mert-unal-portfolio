@@ -29,34 +29,71 @@
     ,
 
     "tr":{
+              "welcomeToast":{
+                   "hello":"Merhaba!",
+                   "seconText":"orada havalar nasıl?",
+                  "question":"Beni işe alacak mısın?",
+                  "yes":"Evet",
+                  "no":"Hayır"
+              },
+
+
              "navSection":{
               "routes": ["Hakkımda","Projeler","Yetenekler","Tecrübeler","İletişim"]
              },
 
              "aboutSection":{
                 "title":"Hakkımda",
-                "yazilar": ["Merhaba, ben Mert. Frontend, backend ve mobil geliştirme ile ilgileniyorum. İnşaat mühendisi olarak bir süre çalıştıktan sonra vizyonuma uygun olmadığını fark ederek yazılım odaklı ilerlemeye karar verdim. Girişim fikrimi hayata geçirmek için mobil geliştirmeye başladım.","Kotlin ile uygulamalar geliştirdim. Girişim sürecim beklediğim gibi ilerlemese de 3 farklı mobil uygulama geliştirerek pratiğimi güçlendirdim.","Tek başıma öğrenmenin sınırlarını görünce bir Full-Stack bootcamp programına katıldım. Önceki teknik temelim sayesinde öğrenme hızımı kısa sürede ciddi ölçüde artırdım.","Eğitim sürecinde aktif ve çalışkan olduğum için eğitmenim, beni part-time asistan hoca olarak ekibe dahil etti. Böylece yeni başlayan yazılımcılara bilgi ve deneyim aktarmaya başladım ve halen devam ediyorum.","Bootcamp sonrasında Insider tarafından 300 kişi içinden seçilen 50 geliştiriciden biri oldum, ardından 10 kişilik staj grubuna kabul edilme başarısı gösterdim.","1 aylık staj sürecinin ardından üretmeye ve gelişmeye devam ediyorum. Insider staj ve bootcamp sürecinde 10'un üzerinde proje gerçekleştirdim. Birini alt tarafta ki projelerimden, diğerlerini de GitHub hesabımdan inceleyebilirsiniz.","Bu site eski portfolyo sitemi yenilemek amacıyla blog sitemi yaptıktan sonra, teknik yetkinliğimi ve üretim yaklaşımımı yansıtmak için geliştirdiğim projelerden biri."],
-                "sonSoz":"Sanatla ve inavasyonla kalın."
+                "texts": ["Merhaba, ben Mert. Frontend, backend ve mobil geliştirme ile ilgileniyorum. İnşaat mühendisi olarak bir süre çalıştıktan sonra vizyonuma uygun olmadığını fark ederek yazılım odaklı ilerlemeye karar verdim. Girişim fikrimi hayata geçirmek için mobil geliştirmeye başladım.","Kotlin ile uygulamalar geliştirdim. Girişim sürecim beklediğim gibi ilerlemese de 3 farklı mobil uygulama geliştirerek pratiğimi güçlendirdim.","Tek başıma öğrenmenin sınırlarını görünce bir Full-Stack bootcamp programına katıldım. Önceki teknik temelim sayesinde öğrenme hızımı kısa sürede ciddi ölçüde artırdım.","Eğitim sürecinde aktif ve çalışkan olduğum için eğitmenim, beni part-time asistan hoca olarak ekibe dahil etti. Böylece yeni başlayan yazılımcılara bilgi ve deneyim aktarmaya başladım ve halen devam ediyorum.","Bootcamp sonrasında Insider tarafından 300 kişi içinden seçilen 50 geliştiriciden biri oldum, ardından 10 kişilik staj grubuna kabul edilme başarısı gösterdim.","1 aylık staj sürecinin ardından üretmeye ve gelişmeye devam ediyorum. Insider staj ve bootcamp sürecinde 10'un üzerinde proje gerçekleştirdim. Birini alt tarafta ki projelerimden, diğerlerini de GitHub hesabımdan inceleyebilirsiniz.","Bu site eski portfolyo sitemi yenilemek amacıyla blog sitemi yaptıktan sonra, teknik yetkinliğimi ve üretim yaklaşımımı yansıtmak için geliştirdiğim projelerden biri."],
+                "lastWord":"Sanatla ve inavasyonla kalın."
             },
+
             "projectSection":{
                   "title":"Projelerim",
+                  "secondTitle":"Teknolojiler",
+                  "showMore":"Daha fazla göster ...",
+                  "showLess":"Daha az göster",
+                  "button":"Siteyi incele",
                    "projects": [
                     { 
                         "id":"1",
-                        "imgSrc":"",
+                        "imgSrc":"https://picsum.photos/id/1032/3200/3200",
                         "name":"Pizza",
-                        "context":"loremipsum121231",
+                        "context": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam dolor reprehenderit, illum enim maiores, voluptatum repellat autem.",
                         "tags":["react","tailwind","router"],
                         "viewSite":"",
                         "github":""
                     },
 
-                    {
+                    { 
+                        "id":"2",
+                        "imgSrc":"https://picsum.photos/id/1037/3200/3200",
+                        "name":"totodspaceee",
+                        "context":"loremipsum121231",
+                        "tags":["react","tailwind","router"],
+                        "viewSite":"",
+                        "github":""
                     },
-                    {
+                     { 
+                        "id":"3",
+                        "imgSrc":"https://picsum.photos/id/1039/3200/3200",
+                        "name":"my blog",
+                        "context":"loremipsum121231",
+                        "tags":["react","tailwind","router","dans","js","html","css"],
+                        "viewSite":"",
+                        "github":""
+                    },
+                       { 
+                        "id":"4",
+                        "imgSrc":"https://picsum.photos/id/1048/3200/3200",
+                        "name":"my blog",
+                        "context":"loremipsum12dddddddd1231",
+                        "tags":["react","tailwind","router","dans","js","html","css"],
+                        "viewSite":"",
+                        "github":""
                     }
-                ],
-                "button":"Daha fazla proje göster ..."
+                ]
+               
             },
             "skillsSectionTitle": "Yeteneklerim",
 
@@ -86,9 +123,12 @@
 
             },
 
+
             "footerSection":{
                 "title":"İletişime geç!",
-                "rights":"Bu portfolyö sitesi Mert ÜNAL tarafından yapılmıştır. © 2025 Tüm hakları saklıdır."
+                "rights1":"Bu portfolyö sitesi",
+                "rights2":"tarafından yapılmıştır.",
+                "rights3":"Tüm hakları saklıdır." 
             }
 
         
@@ -97,10 +137,117 @@
 
 
     "en":{
-
+           "welcomeToast":{
+                   "hello":"Hello there!",
+                   "seconText":"orada havalar nasıl?",
+                  "question":"Will you hire me to job?",
+                  "yes":"Yes",
+                  "no":"No"
+              },
+              
              "navSection":{
               "routes": ["About me","Projects","Skills","Experiences","Contact"]
-             }
+             },
+   "aboutSection":{
+                "title":"About me",
+            "texts": [
+                        "Hello, I'm Mert. I’m interested in frontend, backend, and mobile development. After working for a while as a civil engineer, I realized it didn’t align with my vision and decided to focus on software development. I started mobile development to bring my startup idea to life.",
+                        "I developed applications with Kotlin. Although my entrepreneurship journey didn’t progress as expected, I improved my practice by developing 3 different mobile applications.",
+                        "After seeing the limits of learning on my own, I joined a Full-Stack bootcamp program. Thanks to my previous technical foundation, I significantly increased my learning speed in a short time.",
+                        "Because I was active and hardworking during the training process, my instructor included me in the team as a part-time assistant mentor. This allowed me to share knowledge and experience with new developers, and I still continue.",
+                        "After the bootcamp, I became one of the 50 developers selected by Insider out of 300 candidates, and then I achieved the success of being accepted into a 10-person internship group.",
+                        "After a 1-month internship, I continued to produce and improve myself. During the Insider internship and bootcamp period, I completed over 10 projects. You can review one of them in the section below and the others on my GitHub account.",
+                        "I built this website as one of the projects developed to reflect my technical competency and production mindset after creating my blog site to renew my old portfolio."
+                    ],
+
+                "lastWord":"Stay with art and innovation."
+            },
+            "projectSection":{
+                  "title":"My projects",
+                  "secondTitle":"Used Techs",
+                  "showMore":"Show more ...",
+                  "showLess":"Show less",
+                   "button":"Go to  website",
+
+                   "projects": [
+
+                    { 
+                        "id":"1",
+                        "imgSrc":"https://picsum.photos/id/1032/3200/3200",
+                        "name":"Pizza",
+                        "context": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam dolor reprehenderit, illum enim maiores, voluptatum repellat autem."
+ ,
+                        "tags":["react","tailwind","router"],
+                        "viewSite":"",
+                        "github":""
+                    },
+
+                    { 
+                        "id":"2",
+                        "imgSrc":"https://picsum.photos/id/1037/3200/3200",
+                        "name":"totodspaceee",
+                        "context":"loremipsum121231",
+                        "tags":["react","tailwind","router"],
+                        "viewSite":"",
+                        "github":""
+                    },
+
+                     { 
+                        "id":"3",
+                        "imgSrc":"https://picsum.photos/id/1039/3200/3200",
+                        "name":"my blog",
+                        "context":"loremipsum121231",
+                        "tags":["react","tailwind","router","dans","js","html","css"],
+                        "viewSite":"",
+                        "github":""
+                    },
+
+                    { 
+                        "id":"4",
+                        "imgSrc":"https://picsum.photos/id/1048/3200/3200",
+                        "name":"my blog",
+                        "context":"loremipsum12dddddddd1231",
+                        "tags":["react","tailwind","router","dans","js","html","css"],
+                        "viewSite":"",
+                        "github":""
+                    }
+                ]
+            },
+            "skillsSectionTitle": "My skills",
+
+      "experiencesSection":{
+                   "title":"My experiences",
+                   "experiences":
+                   [
+                    { "id":"1",
+                        "name":"Insider",
+                      "position":"Bootcamp",
+                      "years":"2016-2025",
+                       "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                   },
+                    {"id":"2",
+                        "name":"Insider",
+                      "position":"Bootcamp",
+                      "years":"2016-2025",
+                       "context":"loremipsasdddddddddddddddd2asdddassssssss dasd1asd dddddddddd ddddddddddddddddasdads aaaaaaaaaaaaaa"
+                   },
+                      {"id":"3",
+                        "name":"Insider",
+                      "position":"Bootcamp",
+                      "years":"2016-2025",
+                       "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   }
+                ]
+
+            },
+
+
+            "footerSection":{
+                "title":"Contact me!",
+                "rights1":"This portfolio website created by",
+                "rights2":".",
+                "rights3":"All rights reserved." 
+            }
 
     }
 
