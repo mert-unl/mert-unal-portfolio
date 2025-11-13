@@ -42,25 +42,25 @@
 
             "experiencesSection":{
                    "title":"Tecrübelerim",
-                   "experinces":
+                   "experiences":
                    [
                     { "id":"1",
                         "name":"Insider",
                       "position":"Bootcamp",
                       "years":"2016-2025",
-                       "context":"loremipsasdddddddddddddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                       "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
                     {"id":"2",
                         "name":"Insider",
                       "position":"Bootcamp",
                       "years":"2016-2025",
-                       "context":"loremipsasdddddddddddddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                       "context":"loremipsasdddddddddddddddd2asdddassssssss dasd1asd dddddddddd ddddddddddddddddasdads aaaaaaaaaaaaaa"
                    },
                       {"id":"3",
                         "name":"Insider",
                       "position":"Bootcamp",
                       "years":"2016-2025",
-                       "context":"loremipsasdddddddddddddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                       "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                    }
                 ]
 
