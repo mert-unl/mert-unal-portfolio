@@ -1,6 +1,75 @@
 {
+    "skillSection":
+        [ 
+        {
+         "img":"" , 
+         "name":"" 
+        }
+        ]
+    ,
 
     "tr":{
+             "navSection":{
+              "routes": ["Hakkımda","Projeler","Yetenekler","Tecrübeler","İletişim"]
+             },
+
+             "aboutSection":{
+                "title":"Hakkımda",
+                "yazilar": ["Merhaba, ben Mert. Frontend, backend ve mobil geliştirme ile ilgileniyorum. İnşaat mühendisi olarak bir süre çalıştıktan sonra vizyonuma uygun olmadığını fark ederek yazılım odaklı ilerlemeye karar verdim. Girişim fikrimi hayata geçirmek için mobil geliştirmeye başladım.","Kotlin ile uygulamalar geliştirdim. Girişim sürecim beklediğim gibi ilerlemese de 3 farklı mobil uygulama geliştirerek pratiğimi güçlendirdim.","Tek başıma öğrenmenin sınırlarını görünce bir Full-Stack bootcamp programına katıldım. Önceki teknik temelim sayesinde öğrenme hızımı kısa sürede ciddi ölçüde artırdım.","Eğitim sürecinde aktif ve çalışkan olduğum için eğitmenim, beni part-time asistan hoca olarak ekibe dahil etti. Böylece yeni başlayan yazılımcılara bilgi ve deneyim aktarmaya başladım ve halen devam ediyorum.","Bootcamp sonrasında Insider tarafından 300 kişi içinden seçilen 50 geliştiriciden biri oldum, ardından 10 kişilik staj grubuna kabul edilme başarısı gösterdim.","1 aylık staj sürecinin ardından üretmeye ve gelişmeye devam ediyorum. Insider staj ve bootcamp sürecinde 10'un üzerinde proje gerçekleştirdim. Birini alt tarafta ki projelerimden, diğerlerini de GitHub hesabımdan inceleyebilirsiniz.","Bu site eski portfolyo sitemi yenilemek amacıyla blog sitemi yaptıktan sonra, teknik yetkinliğimi ve üretim yaklaşımımı yansıtmak için geliştirdiğim projelerden biri."],
+                "sonSoz":"Sanatla ve inavasyonla kalın."
+            },
+            "projectSection":{
+                  "title":"Projelerim",
+                   "projects": [
+                    { 
+                        "id":"1",
+                        "imgSrc":"",
+                        "name":"Pizza",
+                        "context":"loremipsum121231",
+                        "tags":["react","tailwind","router"],
+                        "viewSite":"",
+                        "github":""
+                    },
+
+                    {
+                    },
+                    {
+                    }
+                ],
+                "button":"Daha fazla proje göster ..."
+            },
+            "skillsSectionTitle": "Yeteneklerim",
+
+            "experiencesSection":{
+                   "title":"Tecrübelerim",
+                   "experinces":
+                   [
+                    { "id":"1",
+                        "name":"Insider",
+                      "position":"Bootcamp",
+                      "years":"2016-2025",
+                       "context":"loremipsasdddddddddddddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                   },
+                    {"id":"2",
+                        "name":"Insider",
+                      "position":"Bootcamp",
+                      "years":"2016-2025",
+                       "context":"loremipsasdddddddddddddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                   },
+                      {"id":"3",
+                        "name":"Insider",
+                      "position":"Bootcamp",
+                      "years":"2016-2025",
+                       "context":"loremipsasdddddddddddddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                   }
+                ]
+
+            },
+
+            "footerSection":{
+                "title":"İletişime geç!",
+                "rights":"Bu portfolyö sitesi Mert ÜNAL tarafından yapılmıştır. © 2025 Tüm hakları saklıdır."
+            }
 
         
     },
@@ -9,7 +78,9 @@
 
     "en":{
 
-
+             "navSection":{
+              "routes": ["About me","Projects","Skills","Experiences","Contact"]
+             }
 
     }
 

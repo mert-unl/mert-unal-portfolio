@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AppContext } from '../context/AppContextProvider'
 
 function Experience() {
+
+   
+  const  = useContext(AppContext)
+
   return (
     <div className='flex flex-col'>
    
