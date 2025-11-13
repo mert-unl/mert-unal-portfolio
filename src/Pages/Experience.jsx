@@ -7,7 +7,7 @@ function Experience() {
      <h2 className="text-4xl md:text-6xl font-medium text-center  animate-blink md:py-5  ">
         Tecrübelerim
       </h2>
-<div className=' md:grid md:grid-cols-3 gap-6 mt-5'>
+<div className=' md:grid md:grid-cols-3 flex flex-col gap-6 mt-5'>
   <ExperienceElement/>
    <ExperienceElement/>
 </div>
