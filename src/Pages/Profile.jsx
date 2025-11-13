@@ -49,9 +49,9 @@ function Profile() {
         <p className="font-semibold text-green-200 mt-6 md:text-xl drop-shadow-md">Sanatla ve inovasyonla kalın.</p>
     
           <div className='flex flex-row justify-between gap-5 md:gap-24 md:mt-12'>
-           <ContactHero logo=" src/assets/linkedIn.png" name="LinkedIn" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
-                <ContactHero logo=" src/assets/gitHub.png" name="GitHub" link="https://github.com/mert-unl" />
-           <ContactHero logo=" src/assets/gmail.png" name="Gmail"  link="mailto:mertunal1998@gmail.com?subject=İş%20Fırsatı&body=Merhaba%20Mert,"/>
+           <ContactHero logo=" /assets/linkedIn.png" name="LinkedIn" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
+                <ContactHero logo=" /assets/gitHub.png" name="GitHub" link="https://github.com/mert-unl" />
+           <ContactHero logo=" /assets/gmail.png" name="Gmail"  link="mailto:mertunal1998@gmail.com?subject=İş%20Fırsatı&body=Merhaba%20Mert,"/>
 
 
           </div>

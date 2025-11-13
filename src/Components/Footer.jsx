@@ -12,9 +12,9 @@ const year = new Date().getFullYear();
 
       <div className="flex flex-row justify-center  py-4 gap-4" >
 
-           <ContactFooter logo=" src/assets/linkedIn.png" name="Linkedin" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
+           <ContactFooter logo="/assets/linkedIn.png" name="Linkedin" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
 
-           <ContactFooter logo=" src/assets/gitHub.png" name="GitHub" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
+           <ContactFooter logo=" /assets/gitHub.png" name="GitHub" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
 
       </div>
            <p className="text-green-200 shadow-sm  text-center  shadow-green-800 "> 
