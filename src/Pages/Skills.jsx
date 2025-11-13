@@ -29,7 +29,7 @@ function Skills() {
   ]
 
   return (
-    <div className="overflow-hidden flex flex-col gap-4  md:gap-0 w-full   mt-20 md:mt-40">
+    <div className="overflow-hidden flex flex-col gap-4  md:gap-0 w-full  ">
 
           <h2 className="text-4xl md:text-6xl font-medium md:py-6 animate-blink text-center">
         Yeteneklerim

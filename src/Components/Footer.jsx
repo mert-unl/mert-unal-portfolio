@@ -6,9 +6,9 @@ const year = new Date().getFullYear();
 
 
   return (
-    <div className='flex flex-col flex-col text-white  w-full h-100 bg-black/90 text-center align-middle justify-center '>         
+    <div className='flex flex-col text-white border-t-green-800/90  mt-15 border-t-1 w-full h-100 bg-black/90 text-center align-middle justify-center '>         
    
-         <h3 className='mt-5 text-4xl py-4 text-center'>İletişime geç!</h3>
+         <h3 className='mt-5  text-2xl py-2 md:text-4xl md:py-4 text-center'>İletişime geç!</h3>
 
       <div className="flex flex-row justify-center  py-4 gap-4" >
 
@@ -22,7 +22,7 @@ const year = new Date().getFullYear();
           mertunal1998@gmail.com
         </a>
       </p>
-  <p className="text-center px-8 mt-20">Bu portfolyö sitesi  <span className='underline'>Mert ÜNAL</span> tarafından yapılmıştır.<br></br>  © {year} Tüm hakları saklıdır.</p>
+  <p className="text-center px-8 mt-10">Bu portfolyö sitesi  <span className='underline'>Mert ÜNAL</span> tarafından yapılmıştır.<br></br>  © {year} Tüm hakları saklıdır.</p>
 
     
     </div>

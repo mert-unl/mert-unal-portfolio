@@ -19,7 +19,7 @@ function Projects() {
 
   return (
     <div className="flex flex-col items-center gap-8  md:gap-10">
-      <h2 className="text-4xl md:text-6xl font-medium  animate-blink md:py-5 text-center ">
+      <h2 className="text-4xl md:text-6xl font-medium  animate-blink  text-center ">
         Projelerim
       </h2>
 
@@ -31,7 +31,7 @@ function Projects() {
         <button
           onClick={() => setSeeMore(!seeMore)}
           className="border-2 bg-black rounded-md hover:shadow-lg  shadow-green-700 
-          hover:scale-110 transition-all border-green-500  duration-400  text-md  md:text-2xl mt-5  px-4 py-2"
+          hover:scale-110 transition-all border-green-500  duration-400  text-md  md:text-2xl mt-2 px-4 py-2"
         >
           {seeMore ? "Daha az göster" : "Daha fazla proje göster ..."}
         </button>

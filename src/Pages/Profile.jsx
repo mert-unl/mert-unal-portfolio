@@ -3,7 +3,7 @@ import { ContactHero } from '../Components/Contact';
 
 function Profile() {
   return (
-    <div className="flex flex-col gap-10 py-5 md:gap-20 mb-20 ">
+    <div className="flex flex-col gap-10 md:gap-20 ">
 
       <img
         className="w-full h-52 md:h-170 rounded-xl border border-green-900/30 object-cover 
