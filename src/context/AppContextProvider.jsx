@@ -11,7 +11,7 @@ function AppContextProvider({children}) {
     const [lang,setLang] = useState("tr")
 
      let langData = data[lang]
-     let skillsData = data["skill"]
+     let skillsData = data["skillSection"]
 
   return (
   <AppContext.Provider value={{langData,skillsData,lang,setLang}}>
