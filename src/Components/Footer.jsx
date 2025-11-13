@@ -6,8 +6,10 @@ const year = new Date().getFullYear();
 
 
   return (
-    <div className='flex flex-col flex-col text-white  w-full h-80 bg-black/90 text-center align-middle justify-center '>         
+    <div className='flex flex-col flex-col text-white  w-full h-100 bg-black/90 text-center align-middle justify-center '>         
    
+         <h3 className='mt-5 text-4xl py-4 text-center'>İletişime geç!</h3>
+
       <div className="flex flex-row justify-center  py-4 gap-4" >
 
            <ContactFooter logo=" src/assets/linkedIn.png" name="Linkedin" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
@@ -20,7 +22,7 @@ const year = new Date().getFullYear();
           mertunal1998@gmail.com
         </a>
       </p>
-  <p className="text-center text-md  md:text-lg px-8 py-10">Bu portfolyö sitesi  <span className='underline'>Mert ÜNAL</span> tarafından yapılmıştır.<br></br>  © {year} Tüm hakları saklıdır.</p>
+  <p className="text-center px-8 mt-20">Bu portfolyö sitesi  <span className='underline'>Mert ÜNAL</span> tarafından yapılmıştır.<br></br>  © {year} Tüm hakları saklıdır.</p>
 
     
     </div>

@@ -3,6 +3,7 @@ import Profile from './Profile'
 import Projects from './Projects'
 import Skills from './Skills'
 import Footer from '../Components/Footer'
+import Experience from './Experience'
 
 function MainPage() {
   return (
@@ -19,7 +20,7 @@ function MainPage() {
      <Profile/>
      <Projects/>
      <Skills/>
-     
+      <Experience/>
     </div>
   )
 }

@@ -36,15 +36,15 @@ function Profile() {
         <p>Tek başıma öğrenmenin sınırlarını görünce bir Full-Stack bootcamp programına katıldım. 
         Önceki teknik temelim sayesinde öğrenme hızımı kısa sürede ciddi ölçüde artırdım.</p>
 
-        <p>Eğitim sürecinde frontend alanında başarılı olduğum için programın eğitmenlerinden biri, 
-        beni part-time frontend mentorü olarak ekibe dahil etti. Böylece yeni başlayan yazılımcılara 
-        bilgi ve deneyim aktarmaya başladım.</p>
+        <p>Eğitim sürecinde aktif ve çalışkan olduğum için eğitmenim, beni part-time asistan hoca olarak ekibe dahil etti. Böylece yeni başlayan yazılımcılara 
+        bilgi ve deneyim aktarmaya başladım ve halen devam ediyorum.</p>
 
         <p>Bootcamp sonrasında Insider tarafından 300 kişi içinden seçilen 50 geliştiriciden biri oldum, 
         ardından 10 kişilik staj grubuna kabul edilme başarısı gösterdim.</p>
 
-        <p>1 aylık staj sürecinin ardından üretmeye ve gelişmeye devam ediyorum. 
-        Bu site, teknik yetkinliğimi ve üretim yaklaşımımı yansıtmak için geliştirdiğim projelerden biri.</p>
+        <p>1 aylık staj sürecinin ardından üretmeye ve gelişmeye devam ediyorum. Insider staj ve bootcamp sürecinde 10'un üzerinde proje gerçekleştirdim.
+          Birini alt tarafta ki projelerimden, diğerlerini de GitHub hesabımdan inceleyebilirsiniz.</p>
+        <p>Bu site eski portfolyo sitemi yenilemek amacıyla blog sitemi yaptıktan sonra, teknik yetkinliğimi ve üretim yaklaşımımı yansıtmak için geliştirdiğim projelerden biri.</p>
 
         <p className="font-semibold text-green-200 mt-6 md:text-xl drop-shadow-md">Sanatla ve inovasyonla kalın.</p>
     

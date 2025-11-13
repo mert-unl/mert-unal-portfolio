@@ -34,7 +34,7 @@ function Skills() {
           <h2 className="text-4xl md:text-6xl font-medium md:py-6 animate-blink text-center">
         Yeteneklerim
       </h2>
-      <div className='flex flex-col bg-gray-900/10 py-4 backdrop-blur-xs gap-6 '>
+      <div className='flex flex-col bg-gray-900/10  backdrop-blur-xs gap-6 '>
 
      
       <div className="scroll-track  md:mt-5 flex gap-2">

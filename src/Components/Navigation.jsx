@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Navigation() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const navClass =
     "text-xl text-center align-center transition-all animate-blink rounded-3xl py-2 hover:px-6 hover:mx-10 hover:shadow-md hover:shadow-green-400 duration-600 transform-all hover:scale-130  hover:font-semibold";
@@ -12,7 +12,7 @@ function Navigation() {
 
       <div className="md:hidden relative ">
         <button
-          onClick={() => setMenuOpen(!menuOpen)}
+          onClick={() => setMenu(!menu)}
           className="text-white  shadow-green-700 animate-blink shadow-md rounded-sm  btn btn-ghost"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
@@ -22,12 +22,12 @@ function Navigation() {
           </svg>
         </button>
 
-        {menuOpen && (
+        {menu && (
           <ul className="absolute left-0 mt-2 w-48 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
-            <li><NavLink to="/profile" onClick={() => setMenuOpen(false)}>Profil</NavLink></li>
-            <li><NavLink to="/projects" onClick={() => setMenuOpen(false)}>Projeler</NavLink></li>
-            <li><NavLink to="/skills" onClick={() => setMenuOpen(false)}>Yetenekler</NavLink></li>
-            <li><NavLink to="/contact" onClick={() => setMenuOpen(false)}>İletişim</NavLink></li>
+            <li><NavLink to="/profile" onClick={() => setMenu(false)}>Profil</NavLink></li>
+            <li><NavLink to="/projects" onClick={() => setMenu(false)}>Projeler</NavLink></li>
+            <li><NavLink to="/skills" onClick={() => setMenu(false)}>Yetenekler</NavLink></li>
+            <li><NavLink to="/contact" onClick={() => setMenu(false)}>İletişim</NavLink></li>
           </ul>
         )}
       </div>
