@@ -4,8 +4,8 @@ import React from 'react'
 function Project({title,content,tags=[],webLink,github}) {
 
 
- //  
-    const linkClass =" animate-blink  md:text-xl hover:scale-110 duration-500 transition-transform transition-colors text-md  md:text-lg  border-1 w-full py-2 md:py-4 border-green-600 bg-black/60  rounded-lg shadow-green-600 shadow-md  hover:shadow-lg  text-white  "
+ 
+    const linkClass =" animate-blink  md:text-xl hover:scale-110 duration-600 transition-all text-md  md:text-lg  border-1 w-full py-2 md:py-4 border-green-600 bg-black/70  rounded-lg shadow-green-700 hover:shadow-green-500 shadow-md  hover:shadow-lg  text-white  "
 
   return (
     <div className='flex flex-col  shadow-green-700  border-green-500/30 md:border-1 md:shadow-green-800 md:shadow-2xl  hover:scale-110 duration-800 shadow-xl p-4 md:p-6 bg-black/40 backdrop-blur-sm rounded-2xl'>
@@ -24,7 +24,7 @@ function Project({title,content,tags=[],webLink,github}) {
                   {tags.map((tag,index)=><Tag key={index} item={tag}/>)}
                 </div>
 
-            <div className='flex text-center py-4 mt-2  gap-10   font-medium '>
+            <div className='flex text-center py-4 mt-2  gap-7   font-medium '>
                     <a className={linkClass} href={webLink}>Siteyi incele</a>
                     <a className={linkClass}  href={github} >Github</a> 
             </div>

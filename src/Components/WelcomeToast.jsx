@@ -26,13 +26,13 @@ function acceptClick(){
          <img src="/morpheus.jpg"   className="transform scale-x-[-1]"
 />
 
-      <div className="bg-black/20 text-white rounded-xl shadow-xl fixed  p-12 flex flex-col mb-40 items-center gap-10 max-w-sm w-full">
-        <p className="text-md font-medium text-center">Merhaba!<br></br>
-         {city ? ` Hmm demek ${city}, orada havalar nasıl? Umarım iyidir.` : "Konum alınıyor..."}
+      <div className="bg-black/20 text-white rounded-xl shadow-xl fixed  p-12 flex flex-col mb-25 items-center gap-10 max-w-sm w-full">
+        <p className="text-md font-medium text-center"> <span className='text-3xl'>Merhaba!</span><br></br>
+         {city ? ` Hmm demek ${city}, orada durumlar nasıl?` : "Konum alınıyor..."}
         </p>
         <p className="text-center text-3xl py-2 bg-black/60 mt-40 font-medium">Beni işe alacak mısın?</p>
 
-        <div className="flex flex-row gap-6  mt-4">
+        <div className="flex flex-row gap-4  mt-4">
           <button onClick={acceptClick} className="bg-gray-900   rounded-lg  text-4xl hover:bg-blue-700 text-white hover:scale-125 font-semibold px-6 py-4  transition-all">
             Evet
           </button>
