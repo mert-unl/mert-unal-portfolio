@@ -11,11 +11,11 @@ const footer = langData.footerSection
 
   return (
     <div className='flex flex-col text-white border-t-green-800/90  mt-15 border-t-1 w-full h-100 bg-black/90 text-center align-middle justify-center '>         
-        <h3 className='mt-5  text-2xl py-2 md:text-4xl md:py-4 text-center'>{footer.title}</h3>
+        <h3 className='mt-5  text-2xl py-2 animate-blink md:text-4xl md:py-4 text-center'>{footer.title}</h3>
 
         <div className="flex flex-row justify-center  py-4 gap-4" >
           <ContactFooter logo="/assets/linkedIn.png" name="Linkedin" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
-          <ContactFooter logo=" /assets/gitHub.png" name="GitHub" link="https://www.linkedin.com/in/mert-%C3%BCnal/" />
+          <ContactFooter logo=" /assets/gitHub.png" name="GitHub" link="https://github.com/mert-unl" />
         </div>
 
         <p className="text-green-200 shadow-sm  text-center  shadow-green-800 "> 

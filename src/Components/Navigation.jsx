@@ -23,7 +23,7 @@ const navs = langData.navSection.routes
   return (
     <div className="navbar bg-black w-screen shadow-2xl  shadow-green-700 md:shadow-green-900 py-5 px-5 md:py-10 md:px-12 fixed z-10 top-0 left-0 justify-center">
 
-      <div className="md:hidden relative ">
+      <div className="md:hidden relative text-start  mt-1 ">
           <button
             onClick={() => setMenu(!menu)}
             className="text-white  shadow-green-700 animate-blink shadow-md rounded-sm  btn btn-ghost"
@@ -36,7 +36,7 @@ const navs = langData.navSection.routes
           </button>
 
           {menu && (
-            <ul className="absolute left-0 mt-2 w-48 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
+            <ul className="absolute mt-2 w-48 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
               <li><NavLink to="/profile" onClick={() => setMenu(false)}>Profil</NavLink></li>
               <li><NavLink to="/projects" onClick={() => setMenu(false)}>Projeler</NavLink></li>
               <li><NavLink to="/skills" onClick={() => setMenu(false)}>Yetenekler</NavLink></li>
@@ -53,7 +53,7 @@ const navs = langData.navSection.routes
          </div>
 
          
-        <div className="hidden md:flex flex-row gap-20 justify-center text-white">
+        <div className="hidden display:none md:flex flex-row gap-20 justify-center text-white">
           { navs.map((item,index)=>( <NavLink key={index} className={navClass} to="/projects">{item}</NavLink>)) }
           
           <div className='hidden flex p-4 gap-8 flex-row justify-center'>

@@ -63,7 +63,7 @@ export default function Cursor() {
   return (
     <div
       ref={cursorRef}
-      className="fixed w-5 h-5 text-3xl font-medium text-center  text-green-400   pointer-events-none -translate-x-1/2 -translate-y-2/3 z-1000"
+      className="  md:fixed w-5 h-5 text-3xl font-medium text-center  text-green-400   pointer-events-none -translate-x-1/2 -translate-y-2/3 z-1000"
     >0</div>
   );
 }

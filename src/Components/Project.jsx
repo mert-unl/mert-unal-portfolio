@@ -5,7 +5,7 @@ function Project({id,imgSrc,name,context,tags=[],viewSite,github,usedTech,button
 
 
  
-    const linkClass =" animate-blink  md:text-xl hover:scale-110 duration-600 transition-all text-md  md:text-lg  border-1 w-full py-2 md:py-4 border-green-600 bg-black/70  rounded-lg shadow-green-700 hover:shadow-green-500 shadow-md  hover:shadow-lg  text-white  "
+    const linkClass =" animate-blink  md:text-xl md:hover:scale-110 duration-600 transition-all text-md  md:text-lg  border-1 w-full py-2 md:py-4 border-green-600 bg-black/70  rounded-lg shadow-green-700 hover:shadow-green-500 shadow-md  hover:shadow-lg  text-white  "
 
   return (
     <div id={id} className='flex flex-col  shadow-green-700  border-green-500/30 md:border-1 md:shadow-green-800 md:shadow-2xl  hover:scale-110 duration-800 shadow-xl p-4 md:p-6 bg-black/40 backdrop-blur-sm rounded-2xl'>
