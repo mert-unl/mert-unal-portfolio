@@ -89,7 +89,7 @@ export default function Cursor() {
     <div
       ref={cursorRef}
       className={`md:fixed w-6 h-6 text-3xl font-medium text-center ${
-        cursorContent === "1" ? "text-green-500  scale-110 font-bold" : "text-green-500"
+        cursorContent === "1" ? "text-green-500  scale-120 font-bold" : "text-green-500"
       } pointer-events-none -translate-x-1/2 -translate-y-2/3 z-1000 transition-transform duration-150`}
     >
       {cursorContent}

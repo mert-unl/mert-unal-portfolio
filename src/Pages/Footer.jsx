@@ -19,7 +19,7 @@ const footer = langData.footerSection
         </div>
 
         <p className="text-green-200 shadow-sm  text-center  shadow-green-800 "> 
-          <a href="mailto:mertunal1998@gmail.com?subject=İş%20Fırsatı&body=Merhaba%20Mert," target="_blank" rel="noopener noreferrer" className="hover:text-green-400 text-xl  hover:scale-115 transition-all duration-500">mertunal1998@gmail.com</a>
+          <a href="mailto:mertunal1998@gmail.com?subject=İş%20Fırsatı&body=Merhaba%20Mert," target="_blank" rel="noopener noreferrer" className="hover:text-green-600 text-xl  hover:scale-115 transition-all duration-500">mertunal1998@gmail.com</a>
         </p>
 
         <p className="text-center px-8 mt-10">{footer.rights1}  <span className='underline'>Mert ÜNAL</span>{footer.rights2} <br></br>  © {year} {footer.rights3}</p>
