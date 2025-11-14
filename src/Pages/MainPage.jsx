@@ -6,10 +6,11 @@ import Experience from './Experience'
 
 function MainPage() {
   return (
-    <div className='flex flex-col md:mt-5 mt-10  py-10  md:py-40   gap-20  md:gap-40 w-full px-3 md:top-50 md:px-80  text-white left-0'>
+    <div className='flex flex-col md:mt-20 mt-10  py-10  md:py-40   gap-20  md:gap-40 w-full px-3 md:top-50 md:px-80  text-white left-0'>
         <Profile/>
+               <Skills/>
+
         <Projects/>
-        <Skills/>
         <Experience/>
     </div>
   )

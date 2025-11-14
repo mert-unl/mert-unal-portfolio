@@ -39,9 +39,16 @@
               },
 
 
-             "navSection":{
-              "routes": ["Hakkımda","Projeler","Yetenekler","Tecrübeler","İletişim"]
-             },
+            "navSection": [
+                { "name": "Hakkımda", "id": "aboutme" },
+                { "name": "Yetenekler", "id": "skills" },
+                { "name": "Projeler", "id": "projects" },
+                { "name": "Tecrübeler", "id": "experiences" },
+                { "name": "İletişim", "id": "contact" }
+            ],
+
+
+    
 
              "aboutSection":{
                 "title":"Hakkımda",
@@ -153,10 +160,17 @@
                   "no":"No"
               },
               
-             "navSection":{
-              "routes": ["About me","Projects","Skills","Experiences","Contact"]
-             },
-   "aboutSection":{
+         
+            "navSection": [
+                { "name": "About me", "id": "aboutme" },
+                { "name": "Skills", "id": "skills" },
+                { "name": "Projects", "id": "projects" },
+                { "name": "Experiences", "id": "experiences" },
+                { "name": "Contact", "id": "contact" }
+            ],
+
+    
+            "aboutSection":{
                 "title":"About me",
             "texts": [
                         "Hello, I'm Mert. I’m interested in frontend, backend, and mobile development. After working for a while as a civil engineer, I realized it didn’t align with my vision and decided to focus on software development. I started mobile development to bring my startup idea to life.",

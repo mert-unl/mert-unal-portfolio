@@ -6,7 +6,7 @@ function Skills() {
   const {langData, skillsData} = useContext(AppContext)
   
   return (
-      <div className="overflow-hidden flex flex-col gap-4  md:gap-0 w-full  ">
+      <section   id="skills" className="scroll-mt-40 overflow-hidden flex flex-col gap-4  md:gap-0 w-full  ">
           <h2 className="text-4xl md:text-6xl font-medium md:py-6 animate-blink text-center">
               {langData.skillsSectionTitle}      
           </h2>
@@ -24,7 +24,7 @@ function Skills() {
                 ))}
               </div>
           </div>
-      </div>
+      </section>
     )
 }
 

@@ -7,7 +7,7 @@ function Experience() {
   const experiences = langData.experiencesSection.experiences
 
   return (
-      <div className='flex flex-col'>
+      <section id="experiences" className=' scroll-mt-25 md:scroll-mt-40 flex flex-col'>
       
         <h2 className="text-4xl md:text-6xl font-medium text-center  animate-blink  py-2  ">
           {langData.experiencesSection.title}
@@ -17,7 +17,7 @@ function Experience() {
             {experiences.map((item)=>  <ExperienceElement key={item.id} company={item.name} position={item.position} year={item.years} context={item.context} />)} 
         </div>
       
-      </div>
+      </section>
   )
 }
 

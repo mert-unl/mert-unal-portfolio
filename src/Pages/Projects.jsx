@@ -14,7 +14,7 @@ function Projects() {
   const visibleProjects = seeMore ? projects : projects.slice(0, 3)
 
   return (
-    <div className="flex flex-col items-center gap-8  md:gap-10">
+    <div id="projects" className="scroll-mt-40 flex flex-col items-center gap-8  md:gap-10">
     
         <h2 className="text-4xl md:text-6xl font-medium  animate-blink  text-center ">
           {projectSection.title}

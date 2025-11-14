@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import { AppContext } from '../context/AppContextProvider';
 
 function Navigation() {
@@ -7,14 +6,24 @@ function Navigation() {
 const {lang,setLang,langData} = useContext(AppContext)
 
 
-const navs = langData.navSection.routes
-
-
+const navs = langData.navSection
+console.log(navs)
   const navClass =
     "text-xl text-center align-center transition-all animate-blink rounded-3xl py-2 hover:px-6 hover:mx-10 hover:shadow-md hover:shadow-green-400 duration-600 transform-all hover:scale-130  hover:font-semibold";
 
 
 
+
+function handleNav(route){
+      document.getElementById(route).scrollIntoView({ behavior: "smooth" });
+
+}
+
+function handleNavMobile(route){
+  setMenu(false)
+      document.getElementById(route).scrollIntoView({ behavior: "smooth" });
+
+}
 
  function handleChange(){
       lang === "tr" ? setLang("en") : setLang("tr")
@@ -36,11 +45,9 @@ const navs = langData.navSection.routes
           </button>
 
           {menu && (
-            <ul className="absolute mt-2 w-48 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
-              <li><NavLink to="/profile" onClick={() => setMenu(false)}>Profil</NavLink></li>
-              <li><NavLink to="/projects" onClick={() => setMenu(false)}>Projeler</NavLink></li>
-              <li><NavLink to="/skills" onClick={() => setMenu(false)}>Yetenekler</NavLink></li>
-              <li><NavLink to="/contact" onClick={() => setMenu(false)}>İletişim</NavLink></li>
+            <ul className="absolute mt-2 w-40 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
+              { navs.map((item,index)=>( <li><button key={index} onClick={()=>handleNavMobile(item.id)} className={navClass} to="/projects">{item.name}</button> </li>)) }
+
             </ul>
           )}
       </div>
@@ -56,7 +63,7 @@ const navs = langData.navSection.routes
 
          {/*desktop */}
         <div className="hidden display:none md:flex flex-row gap-20 justify-center text-white">
-            { navs.map((item,index)=>( <NavLink key={index} className={navClass} to="/projects">{item}</NavLink>)) }
+            { navs.map((item,index)=>( <button key={index} onClick={()=>handleNav(item.id)} className={navClass} to="/projects">{item.name}</button>)) }
             
             {/*dil ayarı*/}
             <div className='hidden flex p-4 gap-8 flex-row justify-center'>

@@ -9,7 +9,7 @@ function Profile() {
   const about = langData.aboutSection
 
   return (
-    <div className="flex flex-col gap-10 md:gap-20 ">
+    <section  className="flex flex-col gap-10 md:gap-20 ">
 
       <img
         className="w-full h-52 md:h-170 rounded-xl border border-green-900/30 object-cover 
@@ -19,8 +19,8 @@ function Profile() {
     
       />
 
-      <div
-        className="flex flex-col gap-6 text-center  bg-gray-900/30 backdrop-blur-sm
+      <div id="aboutme"
+        className="scroll-mt-25 md:scroll-mt-35 flex flex-col gap-6 text-center  bg-gray-900/30 backdrop-blur-sm
         text-green-50 text-sm md:text-lg leading-relaxed
         rounded-2xl p-6 md:py-10 md:px-18  shadow-green-700 border border-green-500/20"
       >
@@ -48,7 +48,7 @@ function Profile() {
           </div>
         
       </div>
-    </div>
+    </section>
   );
 }
 
