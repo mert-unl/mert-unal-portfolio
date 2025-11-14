@@ -23,7 +23,7 @@ const welcome = langData.welcomeToast
     fetch("https://ipapi.co/json/")
       .then(res => res.json())
       .then(data => setCity(data.city))
-      .catch(() => setCity("VPN kullanıyorsun"));
+      .catch(() => setCity("?!1?01!0?!0?01!?"));
   }, []);
 
       
@@ -42,6 +42,8 @@ function enhandle(){
   setLangFlag(false)
 }
  
+ const langButton = "font-bold text-4xl duration-600 px-8 transition-all hover:scale-120 rounded-md p-4" 
+
 
   return (
 
@@ -49,19 +51,19 @@ function enhandle(){
   
       <div className={`${questionFlag ?"display:none hidden " :"fixed inset-0 flex flex-col items-center justify-center z-[1000] bg-black " }`}>
       
-          <img src="/morpheus.jpg"   className="transform  flex fixed top-50-100 left-50-100 -z-100 scale-x-[-1]"
+          <img src="/morpheus.jpg"   className={`${!langFlag ? "transform  flex fixed top-50-100 left-50-100 -z-100 scale-x-[-1]" : "transform  flex fixed top-50-100 left-50-100 -z-100 " }`}
   />
 
 
-        <div className={`${langFlag ? 'text-white flex flex-row  mt-20  gap-4 text-2xl':"display:none hidden "}`}> 
-        <button  className='font-bold text-4xl  bg-red-600 rounded-md p-4' onClick={trhandle}
+        <div className={`${langFlag ? 'text-white flex flex-row  mt-20  gap-12 text-2xl':"display:none hidden "}`}> 
+        <button  className={`${langButton} hover:bg-red-600 bg-red-700`} onClick={trhandle}
           >TR</button>
-        <button  className='font-bold  text-4xl  bg-blue-600 rounded-md p-4' onClick={enhandle} >EN</button>
+        <button className={`${langButton} hover:bg-blue-600  bg-blue-700`} onClick={enhandle} >EN</button>
         </div>
 
         <div className={`${!langFlag ? "bg-black/20 text-white rounded-xl shadow-xl fixed  p-12 flex flex-col mb-35 items-center gap-10 max-w-sm w-full" : "display:none hidden"}`}>
           <p className="text-md font-medium text-center"> <span className='text-3xl'>{welcome.hello}</span><br></br>
-          {city ? ` Hmm demek ${city}, orada durumlar nasıl?` : "Konum alınıyor..."}
+          {city ? ` ${welcome.location}${city}, ${welcome.secondText}` : "..."}
           </p>
           <p className="text-center text-2xl mt-40 md:text-3xl py-2 bg-black/60 md:mt-30 font-medium">{welcome.question}</p>
 

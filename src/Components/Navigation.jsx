@@ -24,25 +24,25 @@ const navs = langData.navSection.routes
     <div className="navbar bg-black w-screen shadow-2xl  shadow-green-700 md:shadow-green-900 py-5 px-5 md:py-10 md:px-12 fixed z-10 top-0 left-0 justify-center">
 
       <div className="md:hidden relative ">
-        <button
-          onClick={() => setMenu(!menu)}
-          className="text-white  shadow-green-700 animate-blink shadow-md rounded-sm  btn btn-ghost"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round"
-              strokeWidth="2" d="M4 6h16M4 12h16M4 18h12" />
-          </svg>
-        </button>
+          <button
+            onClick={() => setMenu(!menu)}
+            className="text-white  shadow-green-700 animate-blink shadow-md rounded-sm  btn btn-ghost"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                strokeWidth="2" d="M4 6h16M4 12h16M4 18h12" />
+            </svg>
+          </button>
 
-        {menu && (
-          <ul className="absolute left-0 mt-2 w-48 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
-            <li><NavLink to="/profile" onClick={() => setMenu(false)}>Profil</NavLink></li>
-            <li><NavLink to="/projects" onClick={() => setMenu(false)}>Projeler</NavLink></li>
-            <li><NavLink to="/skills" onClick={() => setMenu(false)}>Yetenekler</NavLink></li>
-            <li><NavLink to="/contact" onClick={() => setMenu(false)}>İletişim</NavLink></li>
-          </ul>
-        )}
+          {menu && (
+            <ul className="absolute left-0 mt-2 w-48 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
+              <li><NavLink to="/profile" onClick={() => setMenu(false)}>Profil</NavLink></li>
+              <li><NavLink to="/projects" onClick={() => setMenu(false)}>Projeler</NavLink></li>
+              <li><NavLink to="/skills" onClick={() => setMenu(false)}>Yetenekler</NavLink></li>
+              <li><NavLink to="/contact" onClick={() => setMenu(false)}>İletişim</NavLink></li>
+            </ul>
+          )}
       </div>
 
 
@@ -56,10 +56,15 @@ const navs = langData.navSection.routes
         <div className="hidden md:flex flex-row gap-20 justify-center text-white">
           { navs.map((item,index)=>( <NavLink key={index} className={navClass} to="/projects">{item}</NavLink>)) }
           
-          <button className='text-white ms-100 border border-white rounded-2xl' onClick={handleChange}>
-                {lang} dil değiş        
-          </button>
-       
+          <div className='hidden flex p-4 gap-8 flex-row justify-center'>
+            <p>en</p>
+
+            <input type="checkbox" defaultChecked className="toggle toggle-success"  onClick={handleChange}  />
+
+            <p>tr</p>
+          </div>
+      
+        
         </div>
     
 

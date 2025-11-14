@@ -31,7 +31,8 @@
     "tr":{
               "welcomeToast":{
                    "hello":"Merhaba!",
-                   "seconText":"orada havalar nasıl?",
+                    "location":"Konum: ",
+                   "secondText":"orada havalar nasıl?",
                   "question":"Beni işe alacak mısın?",
                   "yes":"Evet",
                   "no":"Hayır"
@@ -68,8 +69,8 @@
                     { 
                         "id":"2",
                         "imgSrc":"https://picsum.photos/id/1037/3200/3200",
-                        "name":"totodspaceee",
-                        "context":"loremipsum121231",
+                        "name":"totodsp aceee",
+                        "context":"lorem  ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam ipsum121231",
                         "tags":["react","tailwind","router"],
                         "viewSite":"",
                         "github":""
@@ -78,7 +79,7 @@
                         "id":"3",
                         "imgSrc":"https://picsum.photos/id/1039/3200/3200",
                         "name":"my blog",
-                        "context":"loremipsum121231",
+                        "context":"loremi psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam 21231",
                         "tags":["react","tailwind","router","dans","js","html","css"],
                         "viewSite":"",
                         "github":""
@@ -87,7 +88,7 @@
                         "id":"4",
                         "imgSrc":"https://picsum.photos/id/1048/3200/3200",
                         "name":"my blog",
-                        "context":"loremipsum12dddddddd1231",
+                        "context":"loremipsu  m12ddd  psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium  ddddd1231",
                         "tags":["react","tailwind","router","dans","js","html","css"],
                         "viewSite":"",
                         "github":""
@@ -139,7 +140,8 @@
     "en":{
            "welcomeToast":{
                    "hello":"Hello there!",
-                   "seconText":"orada havalar nasıl?",
+                   "location":"Location: ",
+                    "secondText": "How’s the weather there?",
                   "question":"Will you hire me?",
                   "yes":"Yes",
                   "no":"No"
@@ -170,13 +172,11 @@
                    "button":"Go to  website",
 
                    "projects": [
-
                     { 
                         "id":"1",
                         "imgSrc":"https://picsum.photos/id/1032/3200/3200",
                         "name":"Pizza",
-                        "context": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam dolor reprehenderit, illum enim maiores, voluptatum repellat autem."
- ,
+                        "context": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam dolor reprehenderit, illum enim maiores, voluptatum repellat autem.",
                         "tags":["react","tailwind","router"],
                         "viewSite":"",
                         "github":""
@@ -185,28 +185,26 @@
                     { 
                         "id":"2",
                         "imgSrc":"https://picsum.photos/id/1037/3200/3200",
-                        "name":"totodspaceee",
-                        "context":"loremipsum121231",
+                        "name":"totodsp aceee",
+                        "context":"lorem  ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam ipsum121231",
                         "tags":["react","tailwind","router"],
                         "viewSite":"",
                         "github":""
                     },
-
                      { 
                         "id":"3",
                         "imgSrc":"https://picsum.photos/id/1039/3200/3200",
                         "name":"my blog",
-                        "context":"loremipsum121231",
+                        "context":"loremi psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam 21231",
                         "tags":["react","tailwind","router","dans","js","html","css"],
                         "viewSite":"",
                         "github":""
                     },
-
-                    { 
+                       { 
                         "id":"4",
                         "imgSrc":"https://picsum.photos/id/1048/3200/3200",
                         "name":"my blog",
-                        "context":"loremipsum12dddddddd1231",
+                        "context":"loremipsu  m12ddd  psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium  ddddd1231",
                         "tags":["react","tailwind","router","dans","js","html","css"],
                         "viewSite":"",
                         "github":""
