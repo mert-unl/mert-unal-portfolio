@@ -8,7 +8,7 @@ import data from "../data/data.json"
 function AppContextProvider({children}) {
 
 
-    const [lang,setLang] = useState("tr")
+    const [lang,setLang] = useState("en")
 
      let langData = data[lang]
      let skillsData = data["skillSection"]
