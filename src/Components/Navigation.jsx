@@ -21,9 +21,9 @@ const navs = langData.navSection.routes
  }
 
   return (
-    <div className="navbar bg-black w-screen shadow-2xl  shadow-green-700 md:shadow-green-900 py-5 px-5 md:py-10 md:px-12 fixed z-10 top-0 left-0 justify-center">
+    <div className="navbar bg-black w-screen shadow-2xl  shadow-green-700 md:shadow-green-900 py-5 px-5 md:py-10 md:px-12 fixed z-5 top-0 left-0 md:justify-center">
 
-      <div className="md:hidden relative text-start  mt-1 ">
+      <div className="md:hidden relative  mt-1 ">
           <button
             onClick={() => setMenu(!menu)}
             className="text-white  shadow-green-700 animate-blink shadow-md rounded-sm  btn btn-ghost"
@@ -46,25 +46,24 @@ const navs = langData.navSection.routes
       </div>
 
 
-        
-         <div className='text-white flex md:top-8  top-2  md:left-12 left-22   fixed flex-col'>
+         {/*adım*/}
+         <div className='text-white flex md:top-8  top-4  md:left-12 left-30   fixed flex-col'>
             <p className='text-white align-center font-semibold   text-2xl  md:text-4xl'>mert ünal</p>
             <p className='text-center   text-xs  md:text-sm italic animate-blink'>Software Developer</p>
          </div>
 
          
+
+         {/*desktop */}
         <div className="hidden display:none md:flex flex-row gap-20 justify-center text-white">
-          { navs.map((item,index)=>( <NavLink key={index} className={navClass} to="/projects">{item}</NavLink>)) }
-          
-          <div className='hidden flex p-4 gap-8 flex-row justify-center'>
-            <p>en</p>
-
-            <input type="checkbox" defaultChecked className="toggle toggle-success"  onClick={handleChange}  />
-
-            <p>tr</p>
-          </div>
-      
-        
+            { navs.map((item,index)=>( <NavLink key={index} className={navClass} to="/projects">{item}</NavLink>)) }
+            
+            {/*dil ayarı*/}
+            <div className='hidden flex p-4 gap-8 flex-row justify-center'>
+              <p>en</p>
+              <input type="checkbox" defaultChecked className="toggle toggle-success"  onClick={handleChange}  />
+              <p>tr</p>
+            </div>
         </div>
     
 
