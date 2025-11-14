@@ -16,6 +16,16 @@
 
 }
 
+.scroll-lock {
+  overflow: hidden !important;
+  height: 100vh !important;
+  position: fixed !important;
+  width: 100%;
+  overscroll-behavior: none !important;
+}
+
+
+
 @keyframes blink {
   0%, 100% {
     color: white;

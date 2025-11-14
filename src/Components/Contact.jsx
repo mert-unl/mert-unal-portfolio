@@ -15,7 +15,7 @@ export function ContactHero({logo,name,link}) {
 export function ContactFooter({logo,name,link}){
 
 return(
-        <button className='p-1'>
+        <button className='p-1 hover:scale-115 duration-600 transition-all'>
            <a href={link} target='_blank' className='flex flex-col  hover:text-green-400  duration-500 transition-all items-center p-2 gap-2'>
               <img src={logo} className='size-10 rounded-lg border bg-white  hover:bg-green-400 duration-500 transition-all  border-green-800 shadow-md' />
               <p >{name}</p>

@@ -101,22 +101,28 @@
             "experiencesSection":{
                    "title":"Tecrübelerim",
                    "experiences":
-                   [
+                       [
                     { "id":"1",
-                        "name":"Insider",
+                        "name":"Workintech",
                       "position":"Bootcamp",
                       "years":"2016-2025",
                        "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
-                    {"id":"2",
+                       { "id":"2",
+                        "name":"Workintech",
+                      "position":"Asistan Hoca",
+                      "years":"2016-2025",
+                       "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                   },
+                    {"id":"3",
                         "name":"Insider",
                       "position":"Bootcamp",
                       "years":"2016-2025",
                        "context":"loremipsasdddddddddddddddd2asdddassssssss dasd1asd dddddddddd ddddddddddddddddasdads aaaaaaaaaaaaaa"
                    },
-                      {"id":"3",
+                      {"id":"4",
                         "name":"Insider",
-                      "position":"Bootcamp",
+                      "position":"Staj",
                       "years":"2016-2025",
                        "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                    }
@@ -218,20 +224,26 @@
                    "experiences":
                    [
                     { "id":"1",
-                        "name":"Insider",
+                        "name":"Workintech",
                       "position":"Bootcamp",
                       "years":"2016-2025",
                        "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
-                    {"id":"2",
+                       { "id":"2",
+                        "name":"Workintech",
+                      "position":"Asistant Teacher",
+                      "years":"2016-2025",
+                       "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
+                   },
+                    {"id":"3",
                         "name":"Insider",
                       "position":"Bootcamp",
                       "years":"2016-2025",
                        "context":"loremipsasdddddddddddddddd2asdddassssssss dasd1asd dddddddddd ddddddddddddddddasdads aaaaaaaaaaaaaa"
                    },
-                      {"id":"3",
+                      {"id":"4",
                         "name":"Insider",
-                      "position":"Bootcamp",
+                      "position":"Internship",
                       "years":"2016-2025",
                        "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                    }

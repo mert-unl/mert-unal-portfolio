@@ -29,7 +29,17 @@ export default function BackgroundMusic() {
 
   return (
     <div className="flex fixed flex-col  md:flex-row top-1 right-2   md:top-10 md:right-10 z-11  items-center gap-1 p-2  rounded-md">
-      <label className="text-white text-sm">Ses:</label>
+
+
+          <label className=" text-sm flex items-center gap-2">
+          <img 
+            src="/assets/music.png" 
+            alt="Voice Icon" 
+            className="w-8 h-8 object-contain"
+          />
+        </label>
+
+
       <input
         type="range"
         min={0}
