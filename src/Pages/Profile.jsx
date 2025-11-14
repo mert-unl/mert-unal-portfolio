@@ -25,20 +25,16 @@ function Profile() {
         rounded-2xl p-6 md:py-10 md:px-18  shadow-green-700 border border-green-500/20"
       >
 
-        <p>Merhaba</p>
-
         <h2
           className="text-4xl md:text-7xl font-bold text-green-100 drop-shadow-green-400
-          tracking-tight"
-        >
-         {about.title}
-        </h2>
+          tracking-tight">  
+              {about.title}
+         </h2>
+           
             {about.texts.map((item,index)=>(
                <p key={index}>{item}</p>
             ))}
    
-        
-
         <p className="font-semibold text-green-200 mt-6 md:text-xl drop-shadow-md">{about.lastWord}</p>
     
           <div className='flex flex-row justify-between gap-5 md:gap-24 md:mt-12'>
