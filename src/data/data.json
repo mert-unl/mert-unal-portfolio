@@ -2,27 +2,28 @@
     "skillSection":
        [
         
-    { "img": "https://picsum.photos/id/1041/3200/3200", "name": "React" },
-    { "img": "https://picsum.photos/id/1027/3200/3200", "name": "Tailwind" },
-    { "img": "https://picsum.photos/id/1035/3200/3200", "name": "JavaScript" },
-    { "img": "https://picsum.photos/id/1044/3200/3200", "name": "Kotlin" },
-    { "img": "https://picsum.photos/id/1042/3200/3200", "name": "HTML5" },
-    { "img": "https://picsum.photos/id/1028/3200/3200", "name": "CSS3" },
-    { "img": "https://picsum.photos/id/1029/3200/3200", "name": "TypeScript" },
-    { "img": "https://picsum.photos/id/1048/3200/3200", "name": "React Router" },
-    { "img": "https://picsum.photos/id/1011/3200/3200", "name": "Hooks" },
-    { "img": "https://picsum.photos/id/1032/3200/3200", "name": "Context API"  },
-    { "img": "https://picsum.photos/id/1033/3200/3200", "name": "Redux" },
-    { "img": "https://picsum.photos/id/1036/3200/3200", "name": "Zustand" },
-    { "img": "https://picsum.photos/id/1036/3200/3200", "name": "jQuery"  },
-    { "img": "https://picsum.photos/id/1037/3200/3200", "name": "PostgreSQL"},
-    { "img": "https://picsum.photos/id/1038/3200/3200", "name":  "Spring Boot" },
-    { "img": "https://picsum.photos/id/1039/3200/3200", "name":  "Spring Boot" },
-    { "img": "https://picsum.photos/id/1040/3200/3200", "name":   "Hibernate / JPA" },
-    { "img": "https://picsum.photos/id/1043/3200/3200", "name":  "Vite" },
-    { "img": "https://picsum.photos/id/1049/3200/3200", "name":  "REST API"  },
-    { "img": "https://picsum.photos/id/1047/3200/3200", "name":  "GitHub / GitLab"  },
-    { "img": "https://picsum.photos/id/1054/3200/3200", "name":  "Cypress"  }
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "name": "JavaScript" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg", "name": "Tailwind" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" , "name": "HTML5" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg", "name": "Kotlin" },
+        { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg", "name": "Android" },
+
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" , "name": "CSS3" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "name": "TypeScript" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" , "name": "React" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg", "name": "React Router" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg", "name": "Firebase"  },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg", "name": "Redux" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg", "name": "Zustand" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg", "name": "jQuery"  },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "name": "PostgreSQL"},
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg", "name":  "Postman" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg", "name":  "Spring Boot" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg", "name":   "Hibernate / JPA" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg", "name":  "Vite" },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg", "name":  "Mongo DB"  },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg", "name":  "GitHub / GitLab"  },
+    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain-wordmark.svg", "name":  "Cypress"  }
 
   ]
 

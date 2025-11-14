@@ -25,6 +25,8 @@ function Profile() {
         rounded-2xl p-6 md:py-10 md:px-18  shadow-green-700 border border-green-500/20"
       >
 
+        <p>Merhaba</p>
+
         <h2
           className="text-4xl md:text-7xl font-bold text-green-100 drop-shadow-green-400
           tracking-tight"

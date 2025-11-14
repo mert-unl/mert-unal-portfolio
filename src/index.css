@@ -77,9 +77,11 @@
 }
 
 .scroll-track {
-  animation: scrollRight 50s linear infinite;
+  animation: scrollRight 20s linear infinite;
 }
 
 .reverse-track {
-  animation: scrollLeft 50s linear infinite;
+  animation: scrollLeft 20s linear infinite;
+   animation-delay: 10s;
+  animation-fill-mode: both;
 }

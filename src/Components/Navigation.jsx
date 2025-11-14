@@ -7,11 +7,9 @@ const {lang,setLang,langData} = useContext(AppContext)
 
 
 const navs = langData.navSection
-console.log(navs)
-  const navClass =
+
+const navClass =
     "text-xl text-center align-center transition-all animate-blink rounded-3xl py-2 hover:px-6 hover:mx-10 hover:shadow-md hover:shadow-green-400 duration-600 transform-all hover:scale-130  hover:font-semibold";
-
-
 
 
 function handleNav(route){
@@ -47,7 +45,6 @@ function handleNavMobile(route){
           {menu && (
             <ul className="absolute mt-2 w-40 bg-black text-green-100 animate-blink rounded-box p-2 shadow-lg border rounded-md border-green-800">
               { navs.map((item,index)=>( <li><button key={index} onClick={()=>handleNavMobile(item.id)} className={navClass} to="/projects">{item.name}</button> </li>)) }
-
             </ul>
           )}
       </div>
