@@ -25,8 +25,8 @@ function Project({id,imgSrc,name,context,tags=[],viewSite,github,usedTech,button
                 </div>
 
             <div className='flex text-center py-4 mt-2  gap-7   font-medium '>
-              <a className={linkClass} href={viewSite}>{buttonText}</a>
-              <a className={linkClass}  href={github} >Github</a> 
+              <a className={linkClass} target="_blank" href={viewSite}>{buttonText}</a>
+              <a className={linkClass}  target="_blank" href={github} >Github</a> 
             </div>
 
         </div>

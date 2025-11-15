@@ -1,31 +1,27 @@
 {
     "skillSection":
-       [
-        
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "name": "JavaScript" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg", "name": "Tailwind" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" , "name": "HTML5" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg", "name": "Kotlin" },
-        { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg", "name": "Android" },
-
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" , "name": "CSS3" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "name": "TypeScript" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" , "name": "React" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg", "name": "React Router" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg", "name": "Firebase"  },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg", "name": "Redux" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg", "name": "Zustand" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg", "name": "jQuery"  },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "name": "PostgreSQL"},
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg", "name":  "Postman" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg", "name":  "Spring Boot" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg", "name":   "Hibernate / JPA" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg", "name":  "Vite" },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg", "name":  "Mongo DB"  },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg", "name":  "GitHub / GitLab"  },
-    { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain-wordmark.svg", "name":  "Cypress"  }
-
-  ]
+       [ 
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" , "name": "HTML5" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" , "name": "CSS3" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", "name": "JavaScript" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", "name": "TypeScript" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" , "name": "React" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg", "name": "React Router" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg", "name": "Tailwind" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain-wordmark.svg", "name":  "Cypress"  },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg", "name": "jQuery"  },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg", "name":  "Vite" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg", "name": "Firebase"  },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg", "name":  "Mongo DB"  },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg", "name": "Zustand" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg", "name": "Redux" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg", "name": "Kotlin" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg", "name": "Android" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg", "name": "PostgreSQL"},
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg", "name":  "Postman" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg", "name":  "Spring Boot" },
+            { "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg", "name":   "Hibernate / JPA" }
+         ]
 
     ,
 
@@ -67,39 +63,55 @@
                     { 
                         "id":"1",
                         "imgSrc":"https://picsum.photos/id/1032/3200/3200",
-                        "name":"Pizza",
-                        "context": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam dolor reprehenderit, illum enim maiores, voluptatum repellat autem.",
-                        "tags":["react","tailwind","router"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"Teknolojik Yemekler",
+                        "context": "React ekosistemini kullanarak modern bir pizza sipariş uygulaması geliştirdim. Axios üzerinden API isteklerini yöneterek sipariş verilerinin doğrulanmasını ve backend ile çift yönlü iletişimi sağladım. React Router ile çoklu sayfa mimarisini kurguladım ve kullanıcı akışını optimize ettim. Form validasyonları, dinamik fiyat hesaplamaları ve bileşen bazlı mimariyle ölçeklenebilir bir yapı kurdum.",
+                        "tags":["javascript","react","cypress","axios","react-router-dom","reactstrap"],
+                        "viewSite":"https://mypizzastore.vercel.app/",
+                        "github":"https://github.com/mert-unl/fsweb-s8-challenge-pizza"
                     },
 
                     { 
                         "id":"2",
                         "imgSrc":"https://picsum.photos/id/1037/3200/3200",
-                        "name":"totodsp aceee",
-                        "context":"lorem  ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam ipsum121231",
-                        "tags":["react","tailwind","router"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"Eski Portfolyo Sitem",
+                        "context":"React ve Tailwind kullanarak modern  bir arayüze sahip proje geliştirdim. Context API ve LocalStorage ile global state yönetimini sağladım, kullanıcı tercihlerini saklayarak oturumlar arasında kalıcılık kazandırdım. Uygulama üç farklı tema destekliyor ve Türkçe–İngilizce arasında kolayca dil değişimi yapılabiliyor. Ayrıca tekrar kullanılabilirliği artırmak için custom hook’lar oluşturdum. ",
+                        "tags":["javascript","react","tailwind","context api","custom hooks"],
+                        "viewSite":"https://my-portfolyo-taupe.vercel.app/",
+                        "github":"https://github.com/mert-unl/old-portfolio"
                     },
                      { 
                         "id":"3",
                         "imgSrc":"https://picsum.photos/id/1039/3200/3200",
-                        "name":"my blog",
-                        "context":"loremi psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam 21231",
-                        "tags":["react","tailwind","router","dans","js","html","css"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"To do Space",
+                        "context":"Klasik bir todo uygulaması olmanın ötesine geçmesi için kullanıcıyı motive edecek bir ilerleme sistemi tasarladım. Her tamamlanan görevle birlikte seviyeler atlanıyor ve kullanıcı, dünyanın oluşumundan yaşamın başlangıcına, gelişimine ve en sonunda uzaya uzanan bir yolculuğa çıkıyor. Bu yapı, görev tamamlama sürecine eğlenceli ve sürekli motive eden bir akış katıyor. Uygulamayı Insider Bootcamp sürecinde jQuery kullanarak geliştirdim",
+                        "tags":["jquery","html/css","javascript"],
+                        "viewSite":"https://todospace-topaz.vercel.app/",
+                        "github":"https://github.com/mert-unl/todospace/tree/main"
                     },
                        { 
                         "id":"4",
                         "imgSrc":"https://picsum.photos/id/1048/3200/3200",
-                        "name":"my blog",
-                        "context":"loremipsu  m12ddd  psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium  ddddd1231",
-                        "tags":["react","tailwind","router","dans","js","html","css"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"Mert Ünal Blog",
+                        "context":"Sadelik ve görsel olarak temiz bir deneyim hedefleyerek kendi blog sitemi geliştirdim. React, Tailwind ve React Router ile modern bir yapı kurdum; Context API ile tema ve içerik yönetimini basitleştirdim. Mevcut websitemin aksine bu projede minimalizm ön planda. Şiirlerimi, hikayelerimi ve hobilerimi burada paylaşıyorum.",
+                        "tags":["react","tailwind","react-router-dom","context api"],
+                        "viewSite":"https://mertunalblog.vercel.app/",
+                        "github":"https://github.com/mert-unl/my-blog"
+                    },
+                    { "id":"5",
+                    "imgSrc":"https://picsum.photos/id/1028/3200/3200",
+                    "name":"Dungeon Warrior",
+                     "context":"Dungeon Warrior, Kotlin ile geliştirdiğim text-based bir RPG oyunudur. MVVM mimarisini kullanarak Jetpack Compose ile modern ve dinamik bir arayüz oluşturdum. Oyun Google Play üzerinden indirilebilir ve oynanabilir. Daha fazla detay için GitHub reposuna göz atabilirsiniz.",
+                     "tags":["kotlin","mvvm","jetpack compose","hilt","coroutines","room","sharedPrefences"],
+                     "viewSite":"https://play.google.com/store/apps/details?id=com.dwrelease.dungeonwarrior&hl=en",
+                     "github":"https://github.com/mert-unl/Dungeon-Warrior-Readme/tree/main"
+                    },
+                    { "id":"6",
+                     "imgSrc":"https://picsum.photos/id/1032/3200/3200",
+                     "name":"Diğer Tüm Uygulamalar",
+                     "context":"GitHub’da 60’tan fazla projem bulunuyor. Burada listelemediğim ancak benim için önemli olan; başarıya ulaşmasa da değerli bir deneyim kazandıran girişimim Eventually ve bootcamp sürecinde geliştirdiğim çeşitli backend projeleri de mevcut. Eğer buraya kadar geldiyseniz, onlara da göz atmanızı tavsiye ederim.",
+                     "tags":["+60 repository","backend projects","android projects","hobby projects","website games"],
+                       "viewSite":"https://github.com/mert-unl",
+                       "github":"https://github.com/mert-unl"
                     }
                 ]
                
@@ -113,27 +125,50 @@
                     { "id":"1",
                         "name":"Workintech",
                       "position":"Bootcamp",
-                      "years":"2016-2025",
+                      "years":"Şubat 2025 - Ağustos 2025",
                        "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
                        { "id":"2",
                         "name":"Workintech",
-                      "position":"Asistan Hoca",
-                      "years":"2016-2025",
+                      "position":"Asistan Eğitmen",
+                      "years":"Ağustos 2025 - Devam etmekte",
                        "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
+
                     {"id":"3",
                         "name":"Insider",
                       "position":"Bootcamp",
-                      "years":"2016-2025",
+                      "years":"Ağustos 2025 - Eylül 2025",
                        "context":"loremipsasdddddddddddddddd2asdddassssssss dasd1asd dddddddddd ddddddddddddddddasdads aaaaaaaaaaaaaa"
                    },
+
                       {"id":"4",
                         "name":"Insider",
                       "position":"Staj",
-                      "years":"2016-2025",
+                      "years":"Eylül 2025 - Ekim 2025",
                        "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   },
+                     {"id":"5",
+                      "name":"Android Developer",
+                      "position":"Freelance",
+                      "years":"2023-2025",
+                      "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   } 
+                     ,
+                    {"id":"6",
+                    "name":"Istanbul Universitesi",
+                    "position":"Bilgisayar Programcılığı",
+                    "years":"2025",
+                    "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   } ,
+
+                    {"id":"7",
+                    "name":"Antalya Bilim Universitesi",
+                    "position":"İnşaat Mühendisliği",
+                    "years":"2016 -2021",
+                    "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                    }
+
                 ]
 
             },
@@ -196,39 +231,55 @@
                     { 
                         "id":"1",
                         "imgSrc":"https://picsum.photos/id/1032/3200/3200",
-                        "name":"Pizza",
-                        "context": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam dolor reprehenderit, illum enim maiores, voluptatum repellat autem.",
-                        "tags":["react","tailwind","router"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"Teknolojik Yemekler",
+                        "context": "I developed a modern pizza ordering application using the React ecosystem. I handled API requests with Axios to validate order data and ensure smooth communication with the backend. With React Router, I built a multi-page structure and optimized the user flow. The project includes form validations, dynamic price calculations, and a component-based architecture that makes the system scalable and easy to maintain.",
+                        "tags":["cypress","axios","react-router-dom","reactstrap","react"],
+                        "viewSite":"https://mypizzastore.vercel.app/",
+                        "github":"https://github.com/mert-unl/fsweb-s8-challenge-pizza"
                     },
 
                     { 
                         "id":"2",
                         "imgSrc":"https://picsum.photos/id/1037/3200/3200",
-                        "name":"totodsp aceee",
-                        "context":"lorem  ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam ipsum121231",
-                        "tags":["react","tailwind","router"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"Old Portfolio Website",
+                        "context":"I developed a project with a modern interface using React and Tailwind. I implemented global state management with the Context API and LocalStorage, ensuring user preferences are saved and persist across sessions. The application supports three different themes and allows easy switching between Turkish and English. I also created custom hooks to improve reusability and keep the codebase clean and maintainable.",
+                        "tags":["javascript","react","tailwind","context api","custom hooks"],
+                        "viewSite":"https://my-portfolyo-taupe.vercel.app/",
+                        "github":"https://github.com/mert-unl/old-portfolio"
                     },
                      { 
                         "id":"3",
                         "imgSrc":"https://picsum.photos/id/1039/3200/3200",
-                        "name":"my blog",
-                        "context":"loremi psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium quasi totam 21231",
-                        "tags":["react","tailwind","router","dans","js","html","css"],
-                        "viewSite":"",
-                        "github":""
+                        "name":"To do Space",
+                        "context":"To make it more engaging than a classic todo app, I designed a motivational progression system. With every completed task, the user levels up and moves through a journey—from the formation of Earth to the origins of life, its evolution, and finally the leap into space. This structure keeps the user motivated and adds a fun narrative to task completion. I developed this application using jQuery during the Insider Bootcamp program.",
+                        "tags":["jquery","html/css","javascript"],
+                        "viewSite":"https://todospace-topaz.vercel.app/",
+                        "github":"https://github.com/mert-unl/todospace/tree/main"
                     },
                        { 
                         "id":"4",
                         "imgSrc":"https://picsum.photos/id/1048/3200/3200",
-                        "name":"my blog",
-                        "context":"loremipsu  m12ddd  psum1   ipsum dolor sit amet consectetur adipisicing elit.  adipisci voluptas corporis praesentium  ddddd1231",
+                        "name":"Mert Ünal Blog",
+                        "context":"I built my own blog site with a focus on simplicity and a visually clean experience. Using React, Tailwind and React Router, I created a modern structure, and used the Context API to keep theme and content management lightweight. Unlike my current website, this project prioritizes minimalism. I share my poems, stories, and hobbies through this platform.",
                         "tags":["react","tailwind","router","dans","js","html","css"],
-                        "viewSite":"",
-                        "github":""
+                        "viewSite":"https://mertunalblog.vercel.app/",
+                        "github":"https://github.com/mert-unl/my-blog"
+                    },
+                     { "id":"5",
+                    "imgSrc":"https://picsum.photos/id/1028/3200/3200",
+                    "name":"Dungeon Warrior",
+                     "context":"Dungeon Warrior is a text-based RPG game developed in Kotlin. I built the UI with Jetpack Compose and structured the project using the MVVM architecture. The game is available on Google Play, and you can check the GitHub repository for more details.",
+                     "tags":["kotlin","mvvm","jetpack compose","hilt","coroutines","room","sharedPrefences"],
+                     "viewSite":"https://play.google.com/store/apps/details?id=com.dwrelease.dungeonwarrior&hl=en",
+                     "github":"https://github.com/mert-unl/Dungeon-Warrior-Readme/tree/main"
+                    },
+                       { "id":"6",
+                     "imgSrc":"https://picsum.photos/id/1032/3200/3200",
+                     "name":"Diğer Tüm Uygulamalar",
+                     "context":"I have over 60 repositories on GitHub. Some of them aren’t listed here but are important to me—like my project Eventually, a startup idea that didn’t reach success, and various backend assignments I completed during my bootcamp. If you’ve made it this far, I recommend checking them out as well.",
+                     "tags":["+60 repository","backend projects","android projects","hobby projects","website games"],
+                      "viewSite":"https://github.com/mert-unl",
+                       "github":"https://github.com/mert-unl"
                     }
                 ]
             },
@@ -238,29 +289,51 @@
                    "title":"My experiences",
                    "experiences":
                    [
-                    { "id":"1",
+                 { "id":"1",
                         "name":"Workintech",
                       "position":"Bootcamp",
-                      "years":"2016-2025",
+                      "years":"Februay 2025 - August 2025",
                        "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
                        { "id":"2",
                         "name":"Workintech",
                       "position":"Asistant Teacher",
-                      "years":"2016-2025",
+                      "years":"August 2025 - Current",
                        "context":"loremipsasddddddddddd ddddd2asdddassssssssdasd1asddddddddddddddddddddddddddd"
                    },
+
                     {"id":"3",
                         "name":"Insider",
                       "position":"Bootcamp",
-                      "years":"2016-2025",
+                      "years":"Ağustos 2025 - Eylül 2025",
                        "context":"loremipsasdddddddddddddddd2asdddassssssss dasd1asd dddddddddd ddddddddddddddddasdads aaaaaaaaaaaaaa"
                    },
+
                       {"id":"4",
                         "name":"Insider",
                       "position":"Internship",
-                      "years":"2016-2025",
+                      "years":"Eylül 2025 - Ekim 2025",
                        "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   },
+                     {"id":"5",
+                      "name":"Android Developer",
+                      "position":"Freelance",
+                      "years":"2023-2025",
+                      "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   } 
+                     ,
+                    {"id":"6",
+                    "name":"Istanbul Universitesi",
+                    "position":"Computer Programming",
+                    "years":"2025",
+                    "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                   } ,
+
+                    {"id":"7",
+                    "name":"Antalya Bilim Universitesi",
+                    "position":"Civil Engineering",
+                    "years":"2016 -2021",
+                    "context":"loremipsasd ddddddddddddddd2asdddasssssss sdasd1asdddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                    }
                 ]
 
@@ -270,7 +343,7 @@
             "footerSection":{
                 "title":"Contact me!",
                 "rights1":"This portfolio website created by",
-                "rights2":".",
+                "rights2":" .",
                 "rights3":"All rights reserved." 
             }
 
