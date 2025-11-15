@@ -51,7 +51,7 @@ function handleNavMobile(route){
 
 
          {/*adım*/}
-         <div className='text-white flex md:top-8  top-4  md:left-12 left-30   fixed flex-col'>
+         <div className='text-white flex md:top-8  top-4  md:left-12 left-38   fixed flex-col'>
             <p className='text-white align-center font-semibold   text-2xl  md:text-4xl'>mert ünal</p>
             <p className='text-center   text-xs  md:text-sm italic animate-blink'>Software Developer</p>
          </div>
