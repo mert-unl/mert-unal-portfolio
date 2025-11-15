@@ -60,6 +60,16 @@
                   "showLess":"Daha az göster",
                   "button":"Siteyi incele",
                    "projects": [
+                         { 
+                        "id":"99",
+                        "imgSrc":"https://picsum.photos/id/1032/3200/3200",
+                        "name":"Mert Unal Portfolyo",
+                        "context": "Bu web sitesi! Daha eğlenceli ve modern bir portfolyo deneyimi yaratma ihtiyacından doğdu. React ve Tailwind ile kodladım, Context API sayesinde dil yönetimini kolaylaştırdım. Site mobil uyumlu ve kullanıcı dostu bir deneyim sunuyor. İlginizi çekerse GitHub üzerinden kaynak kodlarına göz atabilirsiniz.",
+                        "tags":["javascript","react","tailwind","context api"],
+                        "viewSite":"https://mertunal.vercel.app",
+                        "github":"https://github.com/mert-unl/mert-unal-portfolio"
+                    },
+
                     { 
                         "id":"1",
                         "imgSrc":"https://picsum.photos/id/1032/3200/3200",
@@ -228,6 +238,16 @@
                    "button":"Go to  website",
 
                    "projects": [
+                            { 
+                        "id":"99",
+                        "imgSrc":"https://picsum.photos/id/1032/3200/3200",
+                        "name":"Mert Unal Portfolyo",
+                        "context": "This website was created to offer a more fun and modern portfolio experience. I built this with React and Tailwind, using the Context API to simplify language and content management. The site is fully responsive and provides a smooth user experience. If you’re interested, you can check out the source code on GitHub.",
+                        "tags":["javascript","react","tailwind","context api"],
+                        "viewSite":"https://mertunal.vercel.app",
+                        "github":"https://github.com/mert-unl/mert-unal-portfolio"
+                    },
+
                     { 
                         "id":"1",
                         "imgSrc":"https://picsum.photos/id/1032/3200/3200",
